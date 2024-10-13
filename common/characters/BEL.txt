@@ -1,0 +1,18 @@
+characters = {
+    BEL_batini_akiloye = {
+        name ="Batini Akiloye"
+
+        portraits = {
+            civilian = {
+                large="GFX_Portrait_Karanga_Batini_Akiloye"
+            }
+        }
+        country_leader = {
+            ideology=interim_government
+            traits={  }
+            expire="2020.1.1.1"
+            id =-1
+            desc=BEL_batini_akiloye_desc
+        }
+    }
+}

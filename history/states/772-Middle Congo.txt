@@ -1,0 +1,33 @@
+
+state={
+	id=772
+	name="STATE_772"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = CCM
+		add_core_of = CCM
+		victory_points = {
+			8193 2 
+		}
+		buildings = {
+			infrastructure = 2
+			12975 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6008 
+	}
+	manpower=746415
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

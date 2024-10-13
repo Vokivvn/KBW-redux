@@ -1,0 +1,26 @@
+
+state={
+	id=769
+	name="STATE_769"
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		victory_points = {
+			2220 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2220 8144 9962 10932 13323 13324 13338 13339 13344 13350 
+	}
+	manpower=2145731
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

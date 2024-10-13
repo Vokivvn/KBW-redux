@@ -1,0 +1,33 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = AP8
+		victory_points = {
+			12758 1 
+		}
+		victory_points = {
+			12883 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12883 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = AP8
+
+	}
+
+	provinces={
+		1033 2027 4562 4603 7970 11976 12101 12455 
+	}
+	manpower=1511000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

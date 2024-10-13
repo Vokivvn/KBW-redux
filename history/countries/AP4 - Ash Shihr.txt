@@ -1,0 +1,90 @@
+﻿oob = "AP4_1972"
+capital = 881
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.5
+set_convoys = 63
+
+
+set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1
+		tech_recon = 1
+		tech_engineers = 1
+		motorised_infantry = 1
+		early_fighter = 1
+		trench_warfare = 1
+		fuel_silos = 1
+		fuel_refining = 1
+		basic_train = 1
+		gw_artillery = 1
+		interwar_antitank = 1
+}
+
+add_ideas = {
+	extensive_conscription
+	limited_exports
+	partial_economic_mobilisation
+}
+
+declare_war_on = {
+    target = AP1
+    type = Benkok_Crisis
+}
+
+declare_war_on = {
+    target = AP3
+    type = Benkok_Crisis
+}
+
+set_party_name = { 
+    ideology = democratic_liberal 
+    long_name = AP4_democratic_liberal_party_long 
+    name = AP4_democratic_liberal_party 
+}
+
+set_party_name = { 
+    ideology = democratic
+    long_name = AP4_democratic_party_long 
+    name = AP4_democratic_party 
+}
+
+set_party_name = { 
+    ideology = democratic_authorianism 
+    long_name = AP4_democratic_authorianism_party_long 
+    name = AP4_democratic_authorianism_party 
+}
+
+add_opinion_modifier = {
+    target = AP8
+    modifier = helping_our_cause
+}
+
+set_politics = {
+	ruling_party = democratic_authorianism
+	last_election = "1935.3.16"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	neutrality = 0
+	democratic_liberal = 5
+	democratic = 20
+	fascism = 0
+	democratic_authorianism = 75
+	distributism_nationalism = 0
+}
+
+create_country_leader = {
+	name = "Zaahir al-Kazmi"
+	desc = ""
+	picture = "gfx/leaders/Arabia/Portrait_Ash_Shihr_Zaahir_al-Kazmi.dds"
+	expire = "1999.3.1"
+	ideology = interim_government
+	traits = {
+
+	}
+}
+

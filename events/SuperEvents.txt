@@ -1,0 +1,113 @@
+﻿##################
+# SUPER EVENTS 
+##################
+
+add_namespace = super
+
+news_event = {		#Super Event Test
+	id = super.1
+	title = super.1.t
+	desc = super.1.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.1.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = ENG_George_V_Dead
+	}
+}
+
+news_event = {		#Super Event Test
+	id = super.2
+	title = super.2.t
+	desc = super.2.d
+	picture = GFX_report_event_diplomatic_message
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.2.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = TUR_Turkish_Civil_War
+	}
+}
+
+news_event = {		#Super Event Test
+	id = super.3
+	title = super.3.t
+	desc = super.3.d
+	picture = USAElec_nixionrockwellwin-99236.dds
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.3.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = POL_Polish_Uprising
+	}
+}
+
+news_event = {		#Super Event Test
+	id = super.4
+	title = super.4.t
+	desc = super.4.d
+	picture = USAElec_the_crash_of_61-99232.dds
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.4.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = RAJ_Anglo_Indian_War
+	}
+}
+
+news_event = {		#Super Event Test
+	id = super.5
+	title = super.5.t
+	desc = super.5.d
+	picture = USAElec_kennedy_elected_president-99234.dds
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.5.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = CHI_Unified_Auth_Beiyang
+	}
+}
+
+news_event = {		#Super Event Test
+	id = super.6
+	title = super.6.t
+	desc = super.6.d
+	picture = USAElec_george_smathers_elected_president-99218.dds
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = super.6.a
+
+        set_country_flag = Super_Event_Visible
+        set_country_flag = CHI_Wuchang_Revolution
+	}
+}

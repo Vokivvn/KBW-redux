@@ -1,0 +1,93 @@
+division_template = {
+	name = "Kitengo cha Bunduki ya Magari" #Motor Rifle Division
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		medium_armor = { x = 2 y = 0 }
+		artillery_brigade = { x = 3 y = 1 }
+		artillery_brigade = { x = 3 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Idara ya Bunduki ya Walinzi" # Guard Rifle Division
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Kikosi cha Silaha" # Armor Brigade
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_sp_artillery_brigade = { x = 2 y = 0 }
+		medium_sp_artillery_brigade = { x = 2 y = 1 }
+		medium_spaa_artillery_brigade = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		light_armor = { x = 3 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Kikosi cha Silaha cha Walinzi" #Guards Armor Divison
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		medium_armor = { x = 1 y = 0 }
+		medium_sp_artillery_brigade = { x = 2 y = 0 }
+		medium_sp_artillery_brigade = { x = 2 y = 1 }
+		medium_spaa_artillery_brigade = { x = 2 y = 2 }
+		motorized = { x = 3 y = 0 }
+		motorized = { x = 3 y = 1 }
+		light_armor = { x = 3 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Kikosi cha Mashambulizi ya Anga" #Air Assault Brigade
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Walinzi Angani Brigedia" #Guard Air Assault Brigade
+
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		signal_company = { x = 0 y = 1 }
+		logistics_company = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Kitengo cha Bunduki ya Magari"
+		location = 1939
+		division_template = "Kitengo cha Bunduki ya Magari"
+		start_experience_factor = 0.3
+	}
+}

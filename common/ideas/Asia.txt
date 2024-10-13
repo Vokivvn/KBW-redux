@@ -1,0 +1,87 @@
+ideas = {
+
+	country = {
+		CHI_rusmustdie = {
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+                }
+            }
+		CHI_racenation = {
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+                stability_factor = -0.05
+                }
+            }
+		CHI_Three_Clauses = {
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+                    army_org_factor = -0.05
+                    breakthrough_factor = 0.05
+                    land_reinforce_rate = 0.05
+                    training_time_factor = -0.1
+                }
+            }
+		definearyan = {
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+  
+                }
+            }
+		remeberthepushnorth = {
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+
+                }
+            }
+	}
+}

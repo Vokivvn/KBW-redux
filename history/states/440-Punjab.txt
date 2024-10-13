@@ -1,0 +1,26 @@
+
+state={
+	id=440
+	name="STATE_440"
+
+	history={
+		victory_points = {
+			10887 5 
+		}
+		owner = IN1
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = IN1
+
+	}
+
+	provinces={
+		1129 2002 2032 2076 3989 4979 7106 8007 8022 8106 9084 10066 10139 10173 10729 10772 10887 12005 12708 12822 
+	}
+	manpower=13665000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

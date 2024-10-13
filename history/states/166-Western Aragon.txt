@@ -1,0 +1,37 @@
+
+state={
+	id=166
+	name="STATE_166"
+	resources={
+		steel=15.000
+	}
+
+	history={
+		owner = EU8
+		victory_points = {
+			3816 3 
+		}
+		victory_points = {
+			9840 1 
+		}
+		victory_points = {
+			7213 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = EU8
+
+	}
+
+	provinces={
+		798 813 871 948 3816 3873 3909 3954 6817 6878 6966 7213 9812 9896 11737 13222 13223 
+	}
+	manpower=668365
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=13.000
+}

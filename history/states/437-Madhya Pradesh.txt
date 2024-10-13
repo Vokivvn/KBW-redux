@@ -1,0 +1,23 @@
+
+state={
+	id=437
+	name="STATE_437"
+
+	history={
+		owner = IN3
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1949 2036 2054 2086 2092 2105 4106 4915 7080 7205 7905 8076 10807 10816 11993 11995 12080 12868 
+	}
+	manpower=8402500
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

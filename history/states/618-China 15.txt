@@ -1,0 +1,29 @@
+
+state={
+	id=618
+	name="STATE_618"
+
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = XSM
+		add_core_of = XSM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4823 2 
+		}
+
+	}
+
+	provinces={
+		1774 4714 4751 4823 4849 7737 7773 7843 10539 10669 12520 12695 12737 
+	}
+	manpower=670800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

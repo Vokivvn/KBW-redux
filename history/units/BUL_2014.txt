@@ -1,0 +1,171 @@
+# That's very early stuff before technology rework so like ermmm i dunno
+
+
+division_template = {
+	name = "Motorised Infantry Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mot_anti_tank_brigade = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Mechanized Division"
+
+	regiments = {
+		mechanized = { x = 0 y = 0 }
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 0 y = 2 }
+		mot_militia = { x = 1 y = 0 }
+		mot_militia = { x = 1 y = 1 }
+		mot_anti_tank_brigade = { x = 1 y = 2 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "''Etel Kuzyu'' Battalion"
+		location = 9463
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Oguz'' Battalion"
+		location = 9479
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Yazi'' 33rd Mechanized Battalion"
+		location = 3508
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Kaiduhm'' Battalion"
+		location = 3531
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Balhash''Battalion"
+		location = 6530
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Kurkut'' Brigade"
+		location = 502
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Baj'' Brigade"
+		location = 3479
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Kabukshi'' Brigade"
+		location = 11405
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Kapa'' Brigade"
+		location = 3399
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Talmat'' Brigade"
+		location = 588
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Telmet'' Battalion"
+		location = 429
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 3573
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 737
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 3755
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion ''Chopon''"
+		location = 574
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 11561
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 3767
+		division_template = "Motorised Infantry Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 9419
+		division_template = Motorised Infantry Division""
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Motorised Infantry Battalion"
+		location = 11422
+		division_template = "Motorised Infantry Division""
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion ''Karaim''"
+		location = 767
+		division_template = "Mechanized Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

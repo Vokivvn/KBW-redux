@@ -1,0 +1,121 @@
+music = {
+	name = "Billy_Dont_Be_A_Hero"
+	file = "Billy_Dont_Be_A_Hero.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "In_the_Year_2525"
+	file = "In_the_Year_2525.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Its_a_Mistake"
+	file = "Its_a_Mistake.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Layla"
+	file = "Layla.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Light_My_Fire"
+	file = "Light_My_Fire.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "The_Night_Has_a_Thousand_Eyes"
+	file = "The_Night_Has_a_Thousand_Eyes.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Who_can_it_be_now"
+	file = "Who_can_it_be_now.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Swan_Lake"
+	file = "Swan_Lake.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Cant_Smile_Without_You"
+	file = "Cant_Smile_Without_You.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "What_You_Wont_Do_for_Love"
+	file = "What_You_Wont_Do_for_Love.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Live_and_Let_Die"
+	file = "Live_and_Let_Die.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Dont_Let_Me_Be_Misunderstood"
+	file = "Dont_Let_Me_Be_Misunderstood.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Hey_Tonight"
+	file = "Hey_Tonight.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "People_Say"
+	file = "People_Say.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Mr_Soul"
+	file = "Mr_Soul.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "My_Sweet_Lord"
+	file = "My_Sweet_Lord.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Some_kind_of_wonderful"
+	file = "Some_kind_of_wonderful.ogg"
+	volume = 0.80
+}
+music = {
+	name = "Ton_Of_Bricks"
+	file = "Ton_Of_Bricks.ogg"
+	volume = 0.80
+}
+music = {
+	name = "I_Fought_the_Law"
+	file = "I_Fought_the_Law.ogg"
+	volume = 0.80
+}
+music = {
+	name = "Knocking_On_Heavens_Door"
+	file = "Knocking_On_Heavens_Door.ogg"
+	volume = 0.80
+}
+music = {
+	name = "No_Tengo_Dinero"
+	file = "No_Tengo_Dinero.ogg"
+	volume = 0.80
+}

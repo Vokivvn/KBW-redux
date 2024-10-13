@@ -1,0 +1,23 @@
+state={
+	id=882
+	name="STATE_882"
+		
+	provinces={
+		13541 13544 13546 13549 13550 13551 13552 13554 
+	}
+	history={
+		owner = AP8
+		add_core_of = AP4
+		set_demilitarized_zone = yes
+		victory_points = { # Yadamah
+			13550 3
+		}
+		victory_points = { # Najran
+			13541 10
+		}
+	}
+	manpower=261345
+	buildings_max_level_factor=1.000
+    state_category = rural
+	local_supplies = 0.5
+}

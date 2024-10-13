@@ -1,0 +1,29 @@
+
+state={
+	id=548
+	name="STATE_548"
+	resources={
+		rubber=3.000
+	}
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ETH
+		victory_points = {
+			12989 1 
+		}
+
+	}
+
+	provinces={
+		2308 3854 4171 7088 12989 13177 13385 
+	}
+	manpower=3515625
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

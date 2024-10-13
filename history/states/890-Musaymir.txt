@@ -1,0 +1,40 @@
+state={
+	id=890
+	name="STATE_890"
+	provinces={
+		1973 13468 13469 13470 13472 13473 13474 13477 13479 13486 13496 13498 
+	}
+		history={
+		owner = AP3
+		add_core_of = AP3
+		add_core_of = AP5
+		victory_points = { # Taizz
+			13469 25
+		}
+		victory_points = { # Ibb
+			13477 15
+		}
+		victory_points = { # Bayhan al Qisab
+			1973 3
+		}
+		victory_points = { # Mūdiyah
+			13473 1
+		}
+		victory_points = { # Ar Risan
+			13496 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			arms_factory = 2
+			13469 = {
+				bunker = 1
+			}
+		}
+	}
+	manpower=1346750
+	buildings_max_level_factor=1.000
+    state_category = large_town
+
+	local_supplies = 6.0 
+}

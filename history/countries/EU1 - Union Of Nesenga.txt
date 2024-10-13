@@ -1,0 +1,46 @@
+﻿oob = "EU1_1936"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	segregation
+
+}
+
+
+
+
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.21"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+	distributism_nationalism = 0
+}
+
+create_country_leader = {
+    name = "Rehema Orji"
+    desc = ""
+    picture = "gfx/leaders/Western Europe/Portrait_Eu7.dds"
+    expire = "2020.3.1"
+    ideology = populism
+    traits = {
+
+    }
+}
+
+
+

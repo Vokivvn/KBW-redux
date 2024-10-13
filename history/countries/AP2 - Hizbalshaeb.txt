@@ -1,0 +1,74 @@
+﻿oob = "AP2_1972"
+capital = 892
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.8
+set_convoys = 1
+
+set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1
+		tech_recon = 1
+		tech_engineers = 1
+		motorised_infantry = 1
+		early_fighter = 1
+		trench_warfare = 1
+		fuel_silos = 1
+		fuel_refining = 1
+		basic_train = 1
+		gw_artillery = 1
+		interwar_antitank = 1
+}
+
+add_ideas = {
+	extensive_conscription
+	war_economy
+	limited_exports
+}
+
+declare_war_on = {
+    target = AP3
+    type = Benkok_Crisis
+}
+
+set_party_name = { 
+    ideology = democratic_authorianism 
+    long_name = AP2_democratic_authorianism_party_long 
+    name = AP2_democratic_authorianism_party 
+}
+
+set_party_name = { 
+    ideology = distributism_nationalism 
+    long_name = AP2_distributism_nationalism_party_long 
+    name = AP2_distributism_nationalism_party 
+}
+
+set_politics = {
+	ruling_party = distributism_nationalism
+	last_election = "1970.1.27"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	communism = 0
+	neutrality = 0
+	democratic_liberal = 0
+	democratic = 0
+	fascism = 0
+	democratic_authorianism = 20
+	distributism_nationalism = 80
+}
+
+	create_country_leader = {
+		name = "Kayden Allam"
+		desc = ""
+		picture = "gfx/leaders/Arabia/Portrait_Hizbalshaeb_Kayden_Allam.dds"
+		expire = "1999.3.1"
+		ideology = national_renewal
+		traits = {
+
+		}
+	}
+
+

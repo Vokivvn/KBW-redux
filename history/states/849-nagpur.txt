@@ -1,0 +1,16 @@
+state={
+	id=849
+	name="STATE_849"
+	provinces={
+		4883 12799 12854 
+	}
+	history={
+		owner = MR4
+		add_core_of = MR4
+
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	local_supplies=5.000
+	state_category=city
+}

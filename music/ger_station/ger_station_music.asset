@@ -1,0 +1,35 @@
+music = {
+	name = "Lebenszeit"
+	file = "Lebenszeit.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Troika"
+	file = "Troika.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Weltraum_Surfen"
+	file = "Weltraum_Surfen.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Hallo_Erde_Hier_ist_Alpha"
+	file = "Hallo_Erde_Hier_ist_Alpha.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Die_Volkalisten"
+	file = "Die_Volkalisten.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Die_Schferhunde"
+	file = "Die_Schferhunde.ogg"
+	volume = 0.80
+}

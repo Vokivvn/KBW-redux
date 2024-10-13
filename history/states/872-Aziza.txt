@@ -1,0 +1,16 @@
+state={
+	id=872
+	name="STATE_872"
+	provinces={
+		8223 11145 12929 13135 13381 13403 
+	}
+		history={
+		owner = ETH
+		add_core_of = ETH
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

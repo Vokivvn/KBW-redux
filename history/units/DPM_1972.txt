@@ -1,0 +1,135 @@
+division_template = {
+	name = "Dobrovlcheskiy Battalion"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Dobrovoltsy"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Slavianskiy Battalion"
+		location = 9461
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion  ''Rodina'' "
+		location = 3421
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Rudnikovskaya Narodnaya Militsiya"
+		location = 6493
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Rudnikovskaya Narodnaya Militsiya"
+		location = 6493
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Rudnikovskaya Narodnaya Militsiya"
+		location = 6493
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Rudnikovskaya Narodnaya Militsiya"
+		location = 6493
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Narodnaya Militsya"
+		location = 9446
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Zemlekamskaya Narodnaya Militsya"
+		location = 9461
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Narodnaya Militsya"
+		location = 9446
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Battalion  ''G.I.V.I.''  "
+		location = 11434
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Narodnie Dobrovoltsy"
+		location = 6505
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion  ''Vostok'' "
+		location = 9430
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Cherkeskiy Battalion ''Rusich''"
+		location = 488
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Cherkeskaya Narodnaya Militsiya"
+		location = 488
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Bogoroditskiy Battalion ''Nikifor'' "
+		location = 11437
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Bogoroditskaya Narodnaya Militsiya"
+		location = 11437
+		division_template = "Dobrovoltsy"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

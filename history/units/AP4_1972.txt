@@ -1,0 +1,126 @@
+division_template = {
+	name = "Huraas Alrayiys"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Huraas Alramad"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Tashkil Almilishiat Alshaebia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Huraas Alramad"
+		location = 13495
+		division_template = "Huraas Alramad"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Huraas Alramad"
+		location = 13533
+		division_template = "Huraas Alramad"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 13515
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 13539
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 13517
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 13531
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 13534
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Tashkil Almilishiat Alshaebia"
+		location = 10870
+		division_template = "Tashkil Almilishiat Alshaebia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "Huraas Alrayiys"
+		location = 13502
+		division_template = "Huraas Alrayiys"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+	division = {
+		name = "Huraas Alrayiys"
+		location = 13553
+		division_template = "Huraas Alrayiys"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.85
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AP4"
+		}
+		requested_factories = 4
+		progress = 0.12
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "AP4"
+		}
+		requested_factories = 2
+		progress = 0.06
+		efficiency = 60
+	}
+}

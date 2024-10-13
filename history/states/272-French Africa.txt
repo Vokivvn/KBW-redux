@@ -1,0 +1,34 @@
+
+state={
+	id=272
+	name="STATE_272"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = KIS
+		add_core_of = KIS
+		victory_points = {
+			4948 5 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2012 2100 12834 
+	}
+	manpower=1638000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=1.000
+}

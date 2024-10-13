@@ -1,0 +1,23 @@
+
+state={
+	id=786
+	name="STATE_786"
+
+	history={
+		owner = AKF
+		add_core_of = AKF
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1897 1962 7943 8035 10771 10779 10812 10829 10838 10915 12751 
+	}
+	manpower=124200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

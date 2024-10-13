@@ -1,0 +1,26 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		victory_points = {
+			2096 1 
+		}
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1953 2034 2096 7996 10859 10877 10908 13414 13416 13419 13422 13424 13427 13429 13431 13434 13435 13437 
+	}
+	manpower=3694293
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

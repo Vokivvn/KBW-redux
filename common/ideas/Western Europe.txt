@@ -1,0 +1,82 @@
+ideas = {
+
+	country = {
+		cheese_war = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+				can_create_factions = no
+			}
+		}
+		segregation = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+				can_create_factions = no
+			}
+		}
+		bushwar = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			rule = {
+				can_create_factions = no
+			}
+		}
+		crisiseuro = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+			
+			rule = {
+				can_create_factions = no
+			}
+		}
+
+	}

@@ -1,0 +1,26 @@
+
+state={
+	id=774
+	name="STATE_774"
+
+	history={
+		owner = AOZ
+		add_core_of = AOZ
+		victory_points = {
+			2081 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1473 1883 1974 3165 3181 4978 5084 7919 11108 
+	}
+	manpower=1442456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=3.000
+}

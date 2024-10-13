@@ -1,0 +1,26 @@
+﻿oob = "HPI_1972"
+capital = 1
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	interwar_antitank = 1
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.11.12"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 25
+	fascism = 25
+	communism = 25
+	neutrality = 25
+}

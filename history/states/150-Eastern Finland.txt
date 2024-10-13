@@ -1,0 +1,27 @@
+
+state={
+	id=150
+	name="STATE_150"
+	resources={
+		steel=3.000
+	}
+
+	history={
+		owner = SC7
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SC7
+
+	}
+
+	provinces={
+		37 82 120 136 141 158 165 193 3013 3026 3073 3115 3125 3149 6033 6078 6134 6146 6156 6175 9056 9074 9104 9163 9169 9233 11024 11041 11043 11076 11079 11081 11141 11199 11210 13104 13108 13109 13110 13111 13112 13115 13118 
+	}
+	manpower=611100
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

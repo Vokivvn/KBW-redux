@@ -1,0 +1,31 @@
+
+state={
+	id=8
+	name="STATE_8"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = BEL
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			6583 5 
+		}
+		add_core_of = BEL
+
+	}
+
+	provinces={
+		6583 9575 11435 11470 11494 
+	}
+	manpower=294748
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

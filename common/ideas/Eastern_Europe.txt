@@ -1,0 +1,113 @@
+ideas = {
+		country = {
+		minor_power = {
+			picture = GFX_idea_minor_power
+			
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+                }
+            }
+		}
+		country = {
+		rus_democracy = {
+			picture = GFX_idea_rus_democracy
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+                }
+            }
+		}
+		country = {
+		African_Colonization = {
+			picture = GFX_idea_African_Colonization
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+
+                    	
+political_power_gain = -1
+                }
+            }
+		}
+		country = {
+		Zion = {
+			picture = GFX_idea_Zion
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+         defence = 0.05	
+offence = 0.03
+                }
+            }
+		}
+		country = {
+		Pyotr = {
+			picture = GFX_idea_Pyotr
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+            army_artillery_attack_factor = 0.05
+                }
+            }
+		}
+		country = {
+		Chinese = {
+			picture = GFX_idea_Chinese
+                allowed = {
+                    always = no
+                }
+
+                allowed_civil_war = {
+                    always = yes
+                }
+
+                removal_cost = -1
+
+                modifier = {
+   
+                }
+            }
+		}
+}
+

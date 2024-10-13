@@ -1,0 +1,36 @@
+	bookmarks = {
+		bookmark = {
+			name = "KBW_NAME"
+			desc = "KBW_DESC"
+			date = 1972.1.1.1
+			picture = "GFX_select_date_1936"
+			default_country = "BEL"
+			default = yes
+			
+			"BEL" = {
+				history = "BEL_HISTORY_DESC"
+				ideology = democratic_authorianism
+				ideas = {
+					bushwar
+				}
+				focuses = {
+
+				}
+			}
+			
+			"SOV" = {
+				history = "SOV_HISTORY_DESC"
+				ideology = communist
+				ideas = {
+				}
+				focuses = {
+
+				}
+			}
+			
+			effect = {
+				randomize_weather = 22345 # <- Obligatory in every bookmark !
+				#123 = { rain_light = yes }
+			}
+		}
+	}

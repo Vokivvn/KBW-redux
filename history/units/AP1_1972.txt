@@ -1,0 +1,93 @@
+division_template = {
+	name = "Liwa' Alhashd Alshaebii"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Alliwa' Althawriu Alshaebiu"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Alliwa' Althawriu Alshaebiu"
+		location = 13555
+		division_template = "Alliwa' Althawriu Alshaebiu"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13563
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13555
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.55
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13563
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.95
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13559
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.76
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13556
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.54
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13556
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.67
+	}
+	division = {
+		name = "Liwa' Alhashd Alshaebii"
+		location = 13555
+		division_template = "Liwa' Alhashd Alshaebii"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.58
+	}
+		
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AP1"
+		}
+		requested_factories = 1
+		progress = 0.28
+		efficiency = 100
+	}
+}

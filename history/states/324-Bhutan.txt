@@ -1,0 +1,31 @@
+
+state={
+	id=324
+	name="STATE_324"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = NEP
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			8010 3 
+		}
+		add_core_of = NEP
+
+	}
+
+	provinces={
+		1116 7455 8010 10349 10810 12730 12860 
+	}
+	manpower=450000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

@@ -1,0 +1,33 @@
+	guiTypes = {
+		containerWindowType = {
+			name = "startup_menu_"
+			position = {x=480 y=100}
+			size = { width=1108 height=720 }
+
+			fade_time = 300
+			fade_type = linear
+			moveable = yes
+			
+			background = {
+				name = "Background"
+				spriteType = "GFX_startbackground"
+			}
+			instantTextboxType = {
+				name = "Headline_title"
+				position = {x = 40 y = 65}
+				font = "VCR01_36_glow"
+				text = "Mod Mechanics"
+				maxWidth = 500
+				maxHeight = 23
+				format = left
+			}
+			
+			buttonType = {
+				name = "exitdbutton_start" 
+				position = {x = 1065 y = 600 }	
+				spriteType = "GFX_buttonstartmenu"
+				shortcut = "SPACE"
+			}
+
+		}
+	}

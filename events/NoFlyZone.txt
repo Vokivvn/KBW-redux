@@ -1,0 +1,23 @@
+﻿###########################
+# NO FLY ZONE EVENTS - CESTINO :)
+###########################
+
+add_namespace = nofly
+
+# No Fly Zone I 
+country_event  = {
+	id = nofly.1
+	title = nofly.1.t
+	desc = nofly.1.d
+	picture = GFX_no_fly_zone
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nofly.1.a
+
+	}
+
+}

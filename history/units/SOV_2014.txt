@@ -1,0 +1,302 @@
+# That's very early stuff before technology rework so like ermmm i dunno
+
+
+division_template = {
+	name = "Motopekhotnaya Divisiya"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		mechanized = { x = 2 y = 0 }
+		mechanized = { x = 2 y = 1 }
+		mechanized = { x = 2 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Tankovye Voyska"
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		light_armor = { x = 0 y = 2 }
+		light_armor = { x = 0 y = 3 }
+		light_armor = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+		mechanized = { x = 1 y = 2 }
+		light_armor = { x = 1 y = 3 }
+	}
+	priority = 1
+}
+units = {
+	division = {
+		name = "101ya Motopekhotnaya Brigada"
+		location = 9543
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5ya Motopekhotnaya Brigada"
+		location = 11530
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "33ya Motopekhotnaya Brigada"
+		location = 9491
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "59ya Motopekhotnaya Brigada"
+		location = 6495
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "21ya Motopekhotnaya Brigada"
+		location = 6507
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "74ya Motopekhotnaya Brigada"
+		location = 511
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1ya Tankovaya Brigada"
+		location = 6578
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "41ya Tankovaya Brigada"
+		location = 11397
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "56ya Tankovaya Brigada"
+		location = 6554
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "54ya Tankovaya Brigada"
+		location = 9531
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "13ya Tankovaya Brigada"
+		location = 3491
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "32ya Motopekhotnaya Brigada"
+		location = 6519
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "67ya Motopekhotnaya Brigada"
+		location = 9476
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "78ya Motopekhotnaya Brigada"
+		location = 9488
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "92ya Tankovaya Brigada"
+		location = 11459
+		division_template = "Tankovye Voyska"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2ya Motopekhotnaya Brigada"
+		location = 484
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3ya Motopekhotnaya Brigada"
+		location = 449
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "72ya Motopekhotnaya Brigada"
+		location = 418
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "59ya Motopekhotnaya Brigada"
+		location = 6578
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "66ya Motopekhotnaya Brigada"
+		location = 11397
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "86ya Motopekhotnaya Brigada"
+		location = 6554
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "81ya Motopekhotnaya Brigada"
+		location = 9531
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "98ya Motopekhotnaya Brigada"
+		location = 3491
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10ya Motopekhotnaya Brigada"
+		location = 11459
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2ya Motopekhotnaya Brigada"
+		location = 484
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3ya Motopekhotnaya Brigada"
+		location = 449
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "73ya Motopekhotnaya Brigada"
+		location = 418
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "52ya Motopekhotnaya Brigada"
+		location = 6578
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "14ya Motopekhotnaya Brigada"
+		location = 11397
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "18ya Motopekhotnaya Brigada"
+		location = 6554
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "44ya Motopekhotnaya Brigada"
+		location = 9531
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1ya Motopekhotnaya Brigada"
+		location = 3491
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "62ya Motopekhotnaya Brigada"
+		location = 11459
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "24ya Motopekhotnaya Brigada"
+		location = 11397
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7ya Motopekhotnaya Brigada"
+		location = 6554
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6ya Motopekhotnaya Brigada"
+		location = 9531
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "96ya Motopekhotnaya Brigada"
+		location = 3491
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "100ya Motopekhotnaya Brigada"
+		location = 11459
+		division_template = "Motopekhotnaya Divisiya"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}

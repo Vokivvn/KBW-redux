@@ -1,0 +1,23 @@
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = EGY
+
+	}
+
+	provinces={
+		1198 4057 12088 
+	}
+	manpower=40431
+	buildings_max_level_factor=1.000
+	state_category=enclave
+	local_supplies=0.000
+}

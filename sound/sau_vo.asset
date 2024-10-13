@@ -1,0 +1,893 @@
+
+category =
+{
+ name = "Voices"
+ soundeffects = {
+	### Peninsular Arabic Dialect ###
+
+	SAU_infantry_idle
+	SAU_infantry_Neutral_combat
+	SAU_infantry_Positive_combat
+	SAU_infantry_retreat
+	SAU_infantry_move_out
+
+	AP1_infantry_idle
+	AP1_infantry_Neutral_combat
+	AP1_infantry_Positive_combat
+	AP1_infantry_retreat
+	AP1_infantry_move_out
+
+	AP2_infantry_idle
+	AP2_infantry_Neutral_combat
+	AP2_infantry_Positive_combat
+	AP2_infantry_retreat
+	AP2_infantry_move_out
+
+	AP3_infantry_idle
+	AP3_infantry_Neutral_combat
+	AP3_infantry_Positive_combat
+	AP3_infantry_retreat
+	AP3_infantry_move_out
+
+	AP4_infantry_idle
+	AP4_infantry_Neutral_combat
+	AP4_infantry_Positive_combat
+	AP4_infantry_retreat
+	AP4_infantry_move_out
+
+	AP5_infantry_idle
+	AP5_infantry_Neutral_combat
+	AP5_infantry_Positive_combat
+	AP5_infantry_retreat
+	AP5_infantry_move_out
+
+	AP7_infantry_idle
+	AP7_infantry_Neutral_combat
+	AP7_infantry_Positive_combat
+	AP7_infantry_retreat
+	AP7_infantry_move_out
+
+	AP8_infantry_idle
+	AP8_infantry_Neutral_combat
+	AP8_infantry_Positive_combat
+	AP8_infantry_retreat
+	AP8_infantry_move_out
+
+	KUW_infantry_idle
+	KUW_infantry_Neutral_combat
+	KUW_infantry_Positive_combat
+	KUW_infantry_retreat
+	KUW_infantry_move_out
+ }
+  compressor =
+ {
+	enabled = yes
+	pregain = 0.0
+	postgain = 2.0
+	ratio = 10.0
+	threshold = -10.0
+	attacktime = 0.030
+	releasetime = 1.2
+ }
+}
+
+########### AUDIO ASSETS
+########### SAU
+sound =
+{
+	name = "SAU_Idle_001"
+	file = "sau/SAU_Idle_001.wav"
+}
+sound =
+{
+	name = "SAU_Idle_002"
+	file = "sau/SAU_Idle_002.wav"
+}
+sound =
+{
+	name = "SAU_Idle_003"
+	file = "sau/SAU_Idle_003.wav"
+}
+sound =
+{
+	name = "SAU_Idle_004"
+	file = "sau/SAU_Idle_004.wav"
+}
+sound =
+{
+	name = "SAU_Idle_005"
+	file = "sau/SAU_Idle_005.wav"
+}
+sound =
+{
+	name = "SAU_Idle_006"
+	file = "sau/SAU_Idle_006.wav"
+}
+sound =
+{
+	name = "SAU_Idle_007"
+	file = "sau/SAU_Idle_007.wav"
+}
+sound =
+{
+	name = "SAU_Idle_008"
+	file = "sau/SAU_Idle_008.wav"
+}
+sound =
+{
+	name = "SAU_Neutral_001"
+	file = "sau/SAU_Neutral_001.wav"
+}
+sound =
+{
+	name = "SAU_Neutral_002"
+	file = "sau/SAU_Neutral_002.wav"
+}
+sound =
+{
+	name = "SAU_Neutral_003"
+	file = "sau/SAU_Neutral_003.wav"
+}
+sound =
+{
+	name = "SAU_Positive_001"
+	file = "sau/SAU_Positive_001.wav"
+}
+sound =
+{
+	name = "SAU_Positive_002"
+	file = "sau/SAU_Positive_002.wav"
+}
+sound =
+{
+	name = "SAU_Positive_003"
+	file = "sau/SAU_Positive_003.wav"
+}
+sound =
+{
+	name = "SAU_Retreat_001"
+	file = "sau/SAU_Retreat_001.wav"
+}
+sound =
+{
+	name = "SAU_Retreat_002"
+	file = "sau/SAU_Retreat_002.wav"
+}
+sound =
+{
+	name = "SAU_Retreat_003"
+	file = "sau/SAU_Retreat_003.wav"
+}
+sound =
+{
+	name = "SAU_MoveOut_001"
+	file = "sau/SAU_MoveOut_001.wav"
+}
+sound =
+{
+	name = "SAU_MoveOut_002"
+	file = "sau/SAU_MoveOut_002.wav"
+}
+sound =
+{
+	name = "SAU_MoveOut_003"
+	file = "sau/SAU_MoveOut_003.wav"
+}
+sound =
+{
+	name = "SAU_MoveOut_004"
+	file = "sau/SAU_MoveOut_004.wav"
+}
+#####
+
+########## Peninsular Arabic
+########## SAU
+
+soundeffect =
+{
+    name = "SAU_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAU_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAU_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAU_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "SAU_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP1
+
+soundeffect =
+{
+    name = "AP1_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP1_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP1_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP1_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP1_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP2
+
+soundeffect =
+{
+    name = "AP2_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP2_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP2_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP2_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP2_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP3
+
+soundeffect =
+{
+    name = "AP3_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.35
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP3_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP3_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP3_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP3_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP4
+
+soundeffect =
+{
+    name = "AP4_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP4_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP4_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP4_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP4_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP5
+
+soundeffect =
+{
+    name = "AP5_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP5_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP5_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP5_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP5_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP7
+
+soundeffect =
+{
+    name = "AP7_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP7_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP7_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP7_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP7_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## AP8
+
+soundeffect =
+{
+    name = "AP8_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP8_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP8_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP8_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "AP8_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+
+########## KUW
+
+soundeffect =
+{
+    name = "KUW_infantry_idle"
+    sounds = {
+        sound = SAU_Idle_001
+        sound = SAU_Idle_002
+        sound = SAU_Idle_003
+        sound = SAU_Idle_004
+        sound = SAU_Idle_005
+        sound = SAU_Idle_006
+        sound = SAU_Idle_007
+        sound = SAU_Idle_008
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "KUW_infantry_Neutral_combat"
+    sounds = {
+        sound = SAU_Neutral_001
+        sound = SAU_Neutral_002
+        sound = SAU_Neutral_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "KUW_infantry_Positive_combat"
+    sounds = {
+        sound = SAU_Positive_001
+        sound = SAU_Positive_002
+        sound = SAU_Positive_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "KUW_infantry_retreat"
+    sounds = {
+        sound = SAU_Retreat_001
+        sound = SAU_Retreat_002
+        sound = SAU_Retreat_003
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}
+soundeffect =
+{
+    name = "KUW_infantry_move_out"
+    sounds = {
+		sound = SAU_MoveOut_001
+		sound = SAU_MoveOut_002
+		sound = SAU_MoveOut_003
+		sound = SAU_MoveOut_004
+    }
+	max_audible = 1
+	max_audible_behaviour = fail
+	volume = 0.55
+	volume_random_offset = { 0.0 -0.15 }
+	playbackrate_random_offset = { 0.0 -0.15}
+}

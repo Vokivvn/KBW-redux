@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_startbackground"
+		texturefile = "gfx/interface/startbackground.dds"
+	}
+	spriteType = {
+		name = "GFX_buttonstartmenu"
+		texturefile = "gfx/interface/buttonbasemenu.dds"
+	}
+}

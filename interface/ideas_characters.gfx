@@ -1,0 +1,10 @@
+spriteTypes = {
+
+
+	### BEL
+
+	spriteType = {
+		name = "GFX_Portrait_Karanga_Batini_Akiloye"
+		texturefile = "gfx/leaders/BEL/Portrait_Karanga_Batini_Akiloye.dds"
+	}
+

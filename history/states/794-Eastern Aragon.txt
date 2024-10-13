@@ -1,0 +1,26 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = EU3
+		victory_points = {
+			3954 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = EU3
+
+	}
+
+	provinces={
+		790 899 915 9813 11793 11819 11821 13225 
+	}
+	manpower=387366
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

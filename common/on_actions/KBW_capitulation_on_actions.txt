@@ -1,0 +1,276 @@
+on_actions = {
+
+	on_capitulation = {
+		effect = {
+
+			if = {
+				limit = {
+					NOT = {
+						ROOT = {
+							is_in_faction = yes
+							any_other_country = {
+								is_in_faction_with = PREV
+								has_capitulated = no
+							}
+						}
+					}
+				}
+
+				# Taizz or Hisbalshaeb wins against the other
+				if = {
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AP2
+								original_tag = AP5
+							}
+						}
+						ROOT = {
+							OR = {
+								original_tag = AP2
+								original_tag = AP5
+							}
+						}
+					}
+
+					log = "Taizz vs Hizbalshaeb"
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+					 		target = ROOT
+					 		transfer_troops = no
+					 	}
+					}
+
+					add_to_variable = { global.TaizzWarCompetitors = -1 }
+					check_victor_taizz_war = yes
+					check_victor_taizz_war = yes
+				}
+
+				# Ash Shihr or Great Zamakh Jamahiriya wins against the other
+				if = {
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AP1
+								original_tag = AP4
+							}
+						}
+						ROOT = {
+							OR = {
+								original_tag = AP1
+								original_tag = AP4
+							}
+						}
+					}
+
+					log = "Ash Shihr vs Zamakh"
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+					 		target = ROOT
+					 		transfer_troops = no
+					 	}
+					}
+
+					add_to_variable = { global.AshShihrWarCompetitors = -1 }
+					check_victor_ash_shihr_war = yes
+					check_victor_ash_shihr_war = yes
+				}
+
+				# Either Ash Shihr or Taizz defeats Aljumhuriat Province
+				if = {
+					limit = {
+						FROM = {
+							OR = {
+								original_tag = AP4
+								original_tag = AP5
+							}
+						}
+						ROOT = {
+							original_tag = AP3
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						
+						AP4 = {
+							transfer_state = 880
+							transfer_state = 878
+						}
+						AP5 = {
+							transfer_state = 890
+							transfer_state = 893
+							set_capital = { 
+								state = 890 
+								remember_old_capital = yes
+							}
+						}
+					}
+
+					add_to_variable = { global.TaizzWarCompetitors = -1 }
+					add_to_variable = { global.AshShihrWarCompetitors = -1 } 
+					check_victor_taizz_war = yes
+					check_victor_taizz_war = yes
+					check_victor_ash_shihr_war = yes
+					check_victor_ash_shihr_war = yes
+				}
+
+				# Hizbalshaeb defeats Aljumhuriat Province
+				if = {
+					limit = {
+						FROM = {
+							original_tag = AP2
+						}
+						ROOT = {
+							original_tag = AP3
+						}
+					}
+
+					add_to_variable = { global.TaizzWarCompetitors = -1 }
+					add_to_variable = { global.AshShihrWarCompetitors = -1 } 
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							target = ROOT
+							transfer_troops = no
+						}
+					}
+
+					if = {
+						limit = {
+							AP1 = {
+								OR = {
+									controls_province = 13508
+									controls_province = 13515
+									controls_province = 13526
+									controls_province = 13532
+									controls_province = 13528
+									controls_province = 13079
+									controls_province = 13529
+									controls_province = 13523
+								}
+							}
+						}
+						AP1 = {
+							transfer_state = 878
+						}
+					}
+					else = {
+						AP4 = {
+							transfer_state = 878
+						}
+					}
+
+					check_victor_taizz_war = yes
+					check_victor_ash_shihr_war = yes
+				}
+
+				# Great Zamakh Jamahiriya defeats Aljumhuriat Province
+				if = {
+					limit = {
+						FROM = {
+							original_tag = AP1
+						}
+						ROOT = {
+							original_tag = AP3
+						}
+					}
+
+					add_to_variable = { global.TaizzWarCompetitors = -1 }
+					add_to_variable = { global.AshShihrWarCompetitors = -1 } 
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+							 target = ROOT
+							 transfer_troops = no
+						 }
+					}
+					if = {
+						limit = {
+							country_exists = AP2
+						}
+						AP2 = {
+							transfer_state = 893
+						}
+					}
+
+					if = {
+						limit = {
+							AND = {
+								FROM = {
+									controls_state = 890
+								}
+								country_exists = AP2
+							}
+						}
+						AP2 = {
+							transfer_state = 890
+						}
+					}
+
+					check_victor_taizz_war = yes
+					check_victor_taizz_war = yes
+					check_victor_ash_shihr_war = yes
+					check_victor_ash_shihr_war = yes
+				}
+
+				# Aljumhuriat Province defeats a Taizz war nation
+				if = {
+					limit = {
+						FROM = {
+							original_tag = AP3
+						}
+						ROOT = {
+							OR = {
+								original_tag = AP2
+								original_tag = AP5
+							}
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+					 		target = ROOT
+					 		transfer_troops = no
+					 	}
+					}
+					add_to_variable = { global.TaizzWarCompetitors = -1 }
+				}
+
+				# Aljumhuriat Province defeats an Ash Shihr war nation
+				if = {
+					limit = {
+						FROM = {
+							original_tag = AP3
+						}
+						ROOT = {
+							OR = {
+								original_tag = AP1
+								original_tag = AP4
+							}
+						}
+					}
+
+					FROM = {
+						white_peace = ROOT
+						annex_country = {
+					 		target = ROOT
+					 		transfer_troops = no
+					 	}
+					}
+					add_to_variable = { global.AshShihrWarCompetitors = -1 }
+				}
+
+			}
+
+		}
+	}
+
+}

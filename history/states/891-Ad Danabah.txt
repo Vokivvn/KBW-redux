@@ -1,0 +1,29 @@
+state={
+	id=891
+	name="STATE_891"
+	provinces={
+		13478 
+	}
+		history={
+		owner = AP5
+		add_core_of = AP5
+		add_core_of = AP2
+		add_core_of = AP3
+		victory_points = { # Al Bayda'
+			13478 5
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			13478 = {
+				bunker = 1
+			}
+		}
+	}
+	manpower=69853
+	buildings_max_level_factor=1.000
+    state_category = large_town
+
+	local_supplies = 1.0 
+}

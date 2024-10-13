@@ -1,0 +1,29 @@
+
+state={
+	id=395
+	name="STATE_395"
+
+	history={
+		owner = SKC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 11
+			air_base = 3
+
+		}
+		add_core_of = SKC
+		victory_points = {
+			9450 30.0 
+		}
+
+	}
+
+	provinces={
+		720 954 1527 1604 1655 4508 4590 7626 7831 10339 10393 10457 12305 12365 12497 12697 
+	}
+	manpower=7630651
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

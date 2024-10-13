@@ -1,0 +1,16 @@
+state={
+	id=852
+	name="STATE_852"
+	provinces={
+		1731 1929 10858 
+	}
+		history={
+		owner = SCR
+		add_core_of = SCR 
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Failure Of The Serbian Offensive
+	SpriteType = { 
+		name = "KarangaStarting_failure_of_the_serbian_offensive-155220"
+		texturefile = "gfx/interface/events/karanga_starting_events-event/KarangaStarting_failure_of_the_serbian_offensive-155220.dds"
+	}
+
+	##Icon For: Fall Of Sekibo
+	SpriteType = { 
+		name = "KarangaStarting_fall_of_sekibo-155231"
+		texturefile = "gfx/interface/events/karanga_starting_events-event/KarangaStarting_fall_of_sekibo-155231.dds"
+	}
+
+ 
+ }

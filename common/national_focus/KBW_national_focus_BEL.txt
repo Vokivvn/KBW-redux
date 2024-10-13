@@ -1,0 +1,219 @@
+focus_tree = {
+	id = karanga_bushwar
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BEL
+		}
+	}
+	
+	default = no
+	
+		focus = {
+			id = BEL_the_trial_of_five
+			icon = GFX_the_trial_of_five
+			x = 12
+			y = 1
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}
+		
+		focus = {
+			id = BEL_the_march_of_thousands
+			icon = GFX_buck_breaking
+			prerequisite = { focus = BEL_the_trial_of_five }
+			x = 10
+			y = 2
+	mutually_exclusive = { focus = BEL_bow_before_your_masters}
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}		
+
+		focus = {
+			id = BEL_bow_before_your_masters
+			icon = GFX_bow_before_your_masters
+			prerequisite = { focus = BEL_the_trial_of_five }
+			x = 14
+			y = 2
+	mutually_exclusive = { focus = BEL_the_march_of_thousands}
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}		
+
+		focus = {
+			id = BEL_airdrops_from_our_friends
+			icon = GFX_airdrops_from_our_friends
+			prerequisite = { 
+				focus = BEL_the_march_of_thousands
+			}
+			x = 9
+			y = 3
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}
+
+		focus = {
+			id = BEL_all_eyes_on_us
+			icon = GFX_all_eyes_on_us
+			prerequisite = { focus = BEL_the_march_of_thousands }
+			x = 11
+			y = 3
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}
+
+		focus = {
+			id = BEL_prepare_to_strike_the_heart
+			icon = GFX_prepare_the_strike_the_heart
+			prerequisite = { focus = BEL_airdrops_from_our_friends }
+			prerequisite = { focus = BEL_all_eyes_on_us }
+			x = 10
+			y = 4
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}		
+
+		focus = {
+			id = BEL_training_in_ngala
+			icon = GFX_training_in_ngala
+			prerequisite = { focus = BEL_prepare_to_strike_the_heart }
+			x = 9
+			y = 5
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}		
+
+		focus = {
+			id = BEL_rus_mercenaries
+			icon = GFX_rus_mercenaries
+			prerequisite = { focus = BEL_prepare_to_strike_the_heart }
+			x = 11
+			y = 5
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}
+
+		focus = {
+			id = BEL_prepare_the_okapi_offensive
+			icon = GFX_prepare_the_okapi_offensive
+			prerequisite = { 
+				focus = BEL_training_in_ngala 
+			}
+			prerequisite = { 
+				focus = BEL_rus_mercenaries
+			}
+			x = 10
+			y = 6
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}		
+
+		focus = {
+			id = BEL_6_o'clock_curfew
+			icon = GFX_6_o'clock_curfew
+			prerequisite = { focus = BEL_bow_before_your_masters }
+			x = 13
+			y = 3
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	
+
+		focus = {
+			id = BEL_collaberation_not_assimilation
+			icon = GFX_collaberation_not_assimilation
+			prerequisite = { focus = BEL_bow_before_your_masters }
+			x = 15
+			y = 3
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	
+
+		focus = {
+			id = BEL_set_the_shrubs_ablaze
+			icon = GFX_set_the_shrubs_ablaze
+			prerequisite = { focus = BEL_6_o'clock_curfew}
+			prerequisite = { focus = BEL_collaberation_not_assimilation }
+			x = 14
+			y = 4
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	
+
+		focus = {
+			id = BEL_patrolling_the_roads
+			icon = GFX_patrolling_the_roads
+			prerequisite = { focus = BEL_set_the_shrubs_ablaze}
+			x = 13
+			y = 5
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	
+
+		focus = {
+			id = BEL_hut_program
+			icon = GFX_hut_program
+			prerequisite = { focus = BEL_set_the_shrubs_ablaze}
+			x = 15
+			y = 5
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	
+
+		focus = {
+			id = BEL_hearts_and_minds
+			icon = GFX_hearts_and_minds
+			prerequisite = { focus = BEL_patrolling_the_roads}
+			prerequisite = { focus = BEL_hut_program}
+			x = 14
+			y = 6
+			offset = {
+				x = 0
+				y = 0
+			}
+			cost = 10
+		}	

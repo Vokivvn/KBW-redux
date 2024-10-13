@@ -1,0 +1,16 @@
+state={
+	id=851
+	name="STATE_851"
+	provinces={
+		7219 8016 8048 10951 
+	}
+		history={
+		owner = KCR
+		add_core_of = KCR
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

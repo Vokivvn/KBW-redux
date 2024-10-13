@@ -1,0 +1,35 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = news
+
+# Marco Polo Bridge I
+country_event  = {
+	id = news.1
+	title = news.1.t
+	desc = news.1.d
+	picture = Test Event_test_event-152157
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.1.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = news.1.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.1.c
+		trigger = { TAG = CHI }
+	}
+}

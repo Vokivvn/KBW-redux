@@ -1,0 +1,35 @@
+state={
+	id=892
+	name="STATE_892"
+	provinces={
+		13482 13483 13490 13493 13504 13513 13514 13518 13520 13522 
+	}
+		history={
+		owner = AP2
+		add_core_of = AP2
+		add_core_of = AP5
+		add_core_of = AP3
+		victory_points = { # Dhamar
+			13490 10
+		}
+		victory_points = { # 'Amran
+			13520 10
+		}
+		victory_points = { # Hezyaz
+			13518 1
+		}
+		victory_points = { # Khawlan
+			13513 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 2
+		}
+	}
+	manpower=432678
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=514
+	name="STATE_514"
+
+	history={
+		owner = AKF
+		add_core_of = AKF
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		5095 7041 10749 12849 
+	}
+	manpower=207733
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

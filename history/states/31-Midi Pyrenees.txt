@@ -1,0 +1,30 @@
+
+state={
+	id=31
+	name="STATE_31"
+
+	history={
+		owner = EU2
+		victory_points = {
+			6766 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = OCC
+		add_core_of = EU2
+
+	}
+
+	provinces={
+		943 3915 3946 6766 6915 6917 6931 9853 
+	}
+	manpower=1825000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

@@ -1,0 +1,25 @@
+add_namespace = Arabianevents
+
+#Terorist Attack 
+news_event = {
+	id = Arabianevents.1
+	title = Arabianevents.1.t
+	desc = Arabianevents.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_terroristattack
+	option = {
+		name = Arabianevents.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+

@@ -1,0 +1,27 @@
+
+state={
+	id=806
+	name="STATE_806"
+
+	history={
+		owner = EU3
+		victory_points = {
+			9710 3 
+		}
+		add_core_of = NAV
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = EU3
+
+	}
+
+	provinces={
+		743 929 3740 3749 6759 9710 9882 9884 11697 11699 12169 
+	}
+	manpower=280723
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

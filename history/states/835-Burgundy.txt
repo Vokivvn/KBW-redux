@@ -1,0 +1,16 @@
+state={
+	id=835
+	name="STATE_835"
+	provinces={
+		611 641 678 698 764 778 780 817 3589 3612 3646 3650 3666 3764 3768 6609 6639 6666 6668 6683 6698 6780 6784 9587 9590 9603 9618 9620 9622 9638 9642 9738 9745 11573 11590 11640 13124 
+	}
+		history={
+		owner = EU4
+		add_core_of = EU4
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

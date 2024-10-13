@@ -1,0 +1,33 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		steel=20.000
+		oil=5.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = HPI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = HPI
+		victory_points = {
+			853 3 
+		}
+
+	}
+
+	provinces={
+		850 853 1740 1793 1972 4796 6897 7747 7818 7821 7879 7999 10573 10645 10914 12699 12765 
+	}
+	manpower=435572
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=8.000
+}

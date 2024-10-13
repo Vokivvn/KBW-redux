@@ -1,0 +1,26 @@
+
+state={
+	id=513
+	name="STATE_513"
+
+	history={
+		owner = CAO
+		add_core_of = CAO
+		victory_points = {
+			12034 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1043 1095 1126 1128 1141 1901 1967 2049 3987 3991 4018 4150 4903 4970 4992 5035 5053 7008 7033 7040 7149 8061 8077 9943 9960 9983 10045 10059 12018 12020 12034 12711 12842 12888 13074 
+	}
+	manpower=811486
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

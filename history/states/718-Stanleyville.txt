@@ -1,0 +1,26 @@
+
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		1950 2073 12808 13376 13386 13391 13394 13396 13398 
+	}
+	manpower=2366783
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=2.000
+}

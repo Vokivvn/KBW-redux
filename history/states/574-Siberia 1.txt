@@ -1,0 +1,28 @@
+
+state={
+	id=574
+	name="STATE_574"
+
+	history={
+		owner = SOV
+		victory_points = {
+			10641 1 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = YAK
+
+	}
+
+	provinces={
+		1666 1724 1730 1748 1761 1772 1795 1807 1845 1852 1878 4675 4726 4752 4762 4795 4798 4821 4835 4855 4868 7691 7746 7759 7765 7785 7817 7844 7854 7889 10565 10583 10589 10590 10608 10641 10654 10667 10681 10701 10714 12506 12538 12565 12575 12591 12611 12623 12694 
+	}
+	manpower=407866
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

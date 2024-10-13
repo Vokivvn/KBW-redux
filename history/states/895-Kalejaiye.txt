@@ -1,0 +1,16 @@
+state={
+	id=895
+	name="STATE_895"
+	provinces={
+		480 575 3476 3536 6446 6504 6560 9500 11483 11548 
+	}
+		history={
+		owner = BEL
+		add_core_of = BEL
+	}
+	manpower=9800
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

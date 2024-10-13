@@ -1,0 +1,30 @@
+state={
+	id=883
+	name="STATE_883"
+	provinces={
+		10870 13531 13534 13537 13538 13540 13543 13545 13548 
+	}
+	history={
+		owner = AP4
+		add_core_of = AP4
+		add_core_of = AP1
+		add_core_of = AP3
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+		victory_points = { # Wadi ad-Dawasir
+			13531 5 
+		}
+		victory_points = { # As Sulayyil
+			13534 3
+		}
+		victory_points = { # Al-Badie Al-Shamali
+			10870 1
+		}
+	}
+	manpower=126578
+	buildings_max_level_factor=1.000
+    state_category = rural
+	local_supplies = 0.0
+}

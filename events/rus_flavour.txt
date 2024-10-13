@@ -1,0 +1,23 @@
+add_namespace = rus_flavour
+
+#The White Knight
+country_event = {
+	id = rus_flavour.1
+	title = rus_flavour.1.t
+	desc = rus_flavour.1.d
+
+	picture = the_white_knight-222667
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = rus_flavour.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

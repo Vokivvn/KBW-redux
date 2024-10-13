@@ -1,0 +1,35 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = AP6
+		add_core_of = AP6
+		victory_points = {
+			12991 3 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			12941 = {
+				naval_base = 2
+
+			}
+			12991 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1964 1966 2020 4909 5065 10818 10891 12840 12991 13395 13399 13408 13411 13413 13433 13447 13453 
+	}
+	manpower=1028895
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

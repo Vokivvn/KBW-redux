@@ -1,0 +1,81 @@
+﻿l_english:
+
+ # Polish-Serbian Flavour War
+
+ polish_aggression:0 "Polish Agression!"
+ stunting_our_growth:0 "Stunting our Growth!"
+ 
+ Polish_Serbian_Conflict.1.t:0 "Polish-Serbian Border Conflict"
+ Polish_Serbian_Conflict.1.d:0 "In the early hours of the morning Polish troops crossed the Nzeogwu river into Serbian territory. At first, the progress of the Polish military was swift due to the Serbian military's disorganization but the Serbian army has begun to regroup and facilitate a fighting retreat. \n\nSerbian troops are now establishing a new defensive line behind the Nzeogwu river and are beginning to fire on Polish troops crossing the river. There has yet to be a major international response, yet Karangan advisers have been dispatched to aid Serbian forces."
+ Polish_Serbian_Conflict.1.a:0 "The Serbs will be defeated!"
+ Polish_Serbian_Conflict.1.b:0 "We march on!"
+ Polish_Serbian_Conflict.1.c:0 "The Polish will never make it Niš!"
+ Polish_Serbian_Conflict.1.d:0 "We must aid our allies!"
+
+ Polish_Serbian_Conflict.2.t:0 "Poland signs a ceasefire!"
+ Polish_Serbian_Conflict.2.d:0 "Due to the solidification of the front and the minor gains that the Polish military have made, the Polish government had decided to sign a ceasefire proposed by the Serbian government instead of fighting a prolonged war.\n\nMany on the international stage doubt that this ceasefire will last very long, and the Serbian government has made a statement accusing the Polish government of committing warcrimes.\n\nThe Nzeogwu river has become one of the most heavily militarized areas in the world, with the number of standing soldiers in the area only increasing as both the Serbian and Polish governments begin to mobilize their nations."
+ Polish_Serbian_Conflict.2.a:0 "Fragile peace is better than no peace."
+ Polish_Serbian_Conflict.2.b:0 "A minor setback."
+ Polish_Serbian_Conflict.2.c:0 "Serbia will live to see another day!"
+ Polish_Serbian_Conflict.2.d:0 "We must start mobilizing!"
+
+ Polish_Serbian_Conflict.3.t:0 "The Serbian Problem"
+ Polish_Serbian_Conflict.3.desc:0 "PLACEHOLDER"
+ Polish_Serbian_Conflict.3.a:0 "PLACEHOLDER"
+
+ Polish_Serbian_Conflict.4.t:0 "Polish Invasion!"
+ Polish_Serbian_Conflict.4.desc:0 "PLACEHOLDER"
+ Polish_Serbian_Conflict.4.a:0 "PLACEHOLDER"
+
+ worldflavorevents.1.t:0 "The Dash South"
+ worldflavorevents.1.d:0 "After multiple Russian majority cities across Onoghur-Bulgar rose up against their government after an Alt-Right group took over the country in a bloodless coup, little believed that Rus would intervene. \n\nBut after reports of Bulgar force's ruthless bombing campaign over rebel held cities the Rus government felt that the only course of action was a dash south, to help these rebel republics and to secure their port on the black sea."
+ worldflavorevents.1.a:0 "Hold On, Brothers!"
+
+ # Yemeni Flavour War
+
+ BENKOK_CRISIS_WAR_NAME:0 "The Benkok Crisis"
+
+ helping_our_cause:0 "Helping our cause!"
+
+ AP1_democratic_liberal_party_long:0 "Hizb Tahrir Alzamkh"
+ AP1_democratic_liberal_party:0 "Hizb Tahrir Alzamkh"
+ 
+ AP1_democratic_party_long:0 "Hizb Shaeb Alzamkh"
+ AP1_democratic_party:0 "Hizb Shaeb Alzamkh"
+
+ AP1_democratic_authorianism_party_long:0 "Hizb Shaeb Alzamkh"
+ AP1_democratic_authorianism_party:0 "Hizb Shaeb Alzamkh"
+
+ AP2_democratic_authorianism_party_long:0 "Dhimar Alharas Alhadidii"
+ AP2_democratic_authorianism_party:0 "Dhimar Alharas Alhadidii"
+
+ AP2_distributism_nationalism_party_long:0 "Tahaluf Altajdid Alwatanii"
+ AP2_distributism_nationalism_party:0 "Altajdid Alwataniu"
+
+ AP3_democratic_authorianism_party_long:0 "Hizb Alharas Alhadidii Fi Taeaz"
+ AP3_democratic_authorianism_party:0 "Alharas Alhadidiu"
+
+ AP3_distributism_nationalism_party_long:0 "Jabhat Altahrir Al'Iislamia"
+ AP3_distributism_nationalism_party:0 "Jabhat Altahrir Al'Iislamia"
+
+ AP4_democratic_liberal_party_long:0 "Tahaluf Alhuriya"
+ AP4_democratic_liberal_party:0 "Tahaluf Alhuriya"
+
+ AP4_democratic_party_long:0 "Hizb Altaliea"
+ AP4_democratic_party:0 "Hizb Altaliea"
+
+ AP4_democratic_authorianism_party_long:0 "Hizb Alhimayat Alwataniu"
+ AP4_democratic_authorianism_party:0 "Hizb Alhimayat Alwataniu"
+
+ AP5_democratic_liberal_party_long:0 "Jabhat Himayat Huquq Alshaeb"
+ AP5_democratic_liberal_party:0 "PPRF"
+
+ AP5_democratic_party_long:0 "Hizb Alaintiqal"
+ AP5_democratic_party:0 "Hizb Alaintiqal"
+
+ AP5_democratic_authorianism_party_long:0 "Jabhat Himayat Taeiz"
+ AP5_democratic_authorianism_party:0 "Jabhat Himayat Taeiz"
+
+ 
+
+ 

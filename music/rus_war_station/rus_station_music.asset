@@ -1,0 +1,58 @@
+music = {
+	name = "A_Light_Flashes_in_the_Dark"
+	file = "A_Light_Flashes_in_the_Dark.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Campfire_Song"
+	file = "Campfire_Song.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "For_This_We_Drink"
+	file = "For_This_We_Drink.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Kiss_the_Rails_Girls_im_Going_Home"
+	file = "Kiss_the_Rails_Girls_im_Going_Home.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Sailors_Dance"
+	file = "Sailors_Dance.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Sleep_Battle_Eagles"
+	file = "Sleep_Battle_Eagles.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Through_the_Wild_Steppes_of_Transbaikal"
+	file = "Through_the_Wild_Steppes_of_Transbaikal.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Were_Leaving_a_Dawn"
+	file = "Were_Leaving_a_Dawn.ogg"
+	volume = 0.80
+}
+music = {
+	name = "Dance_of_the_Siberian_Cossacks"
+	file = "Dance_of_the_Siberian_Cossacks.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Echelons_Song"
+	file = "Echelons_Song.ogg"
+	volume = 0.80
+}

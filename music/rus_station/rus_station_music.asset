@@ -1,0 +1,132 @@
+
+music = {
+	name = "The_Night_is_Clear"
+	file = "The_Night_is_Clear.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Oh_My_Friends"
+	file = "Oh_My_Friends.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Bad_weather"
+	file = "Bad_weather.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Be_With_Me"
+	file = "Be_With_Me.ogg"
+	volume = 1.50
+}
+
+music = {
+	name = "Love_girls"
+	file = "Love_girls.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Oy_Moroz_Moroz"
+	file = "Oy_Moroz_Moroz.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Bublichki"
+	file = "Bublichki.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Katyusha"
+	file = "Katyusha.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Black_Cat"
+	file = "Black_Cat.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Weathervane"
+	file = "Weathervane.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Soon_I_Will_Be_Grayhaired_and_Old"
+	file = "Soon_I_Will_Be_Grayhaired_and_Old.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Cats"
+	file = "Cats.ogg"
+	volume = 0.80
+} 
+
+music = {
+	name = "Four_Orbits"
+	file = "Four_Orbits.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "What_Are_Guitars_Crying_About"
+	file = "What_Are_Guitars_Crying_About.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Casual_Waltz"
+	file = "Casual_Waltz.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Big_Beat"
+	file = "Big_Beat.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Homewards"
+	file = "Homewards.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "She_Does_Not_Understand"
+	file = "She_Does_Not_Understand.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Rita"
+	file = "Rita.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Improvisation"
+	file = "Improvisation.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "About_Sport"
+	file = "About_Sport.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Crawfish_on_Mountain"
+	file = "Crawfish_on_Mountain.ogg"
+	volume = 0.80
+}

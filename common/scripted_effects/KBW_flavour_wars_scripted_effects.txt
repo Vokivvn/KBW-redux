@@ -1,0 +1,59 @@
+check_victor_taizz_war = {
+
+	log = "[?global.TaizzWarCompetitors] Taizz Competitors Left."
+
+	if = {
+		limit = {
+			AND = {
+				country_exists = AP5
+				original_tag = AP5
+				check_variable = { global.TaizzWarCompetitors < 2 }
+			}
+		}
+
+		log = "Taizz won the Civil War."
+	}
+
+	if = {
+		limit = {
+			AND = {
+				country_exists = AP2
+				original_tag = AP2
+				check_variable = { global.TaizzWarCompetitors < 2 }
+			}
+		}
+
+		log = "Hizbalshaeb won the Civil War."
+	}
+
+}
+
+check_victor_ash_shihr_war = {
+
+	log = "[?global.AshShihrWarCompetitors] Ash Shihr Competitors Left."
+
+	if = {
+		limit = {
+			AND = {
+				country_exists = AP4
+				original_tag = AP4
+				check_variable = { global.AshShihrWarCompetitors < 2 }
+			}
+		}
+
+		log = "Ash Shihr won the Civil War."
+	}
+
+	if = {
+		limit = {
+			AND = {
+				country_exists = AP1
+				original_tag = AP1
+				check_variable = { global.AshShihrWarCompetitors < 2 }
+			}
+		}
+
+		log = "Zamakh Jamahiriya won the Civil War."
+	}
+
+}

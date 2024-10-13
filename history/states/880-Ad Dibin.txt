@@ -1,0 +1,30 @@
+state={
+	id=880
+	name="STATE_880"
+	provinces={
+		4924 13494 13506 13509 13511 13512 13516 13519 13524 13525 13527 
+	}
+	history={
+		owner = AP3
+		add_core_of = AP3
+		add_core_of = AP4
+		add_core_of = AP2
+		add_core_of = AP1
+		add_core_of = AP5
+		victory_points = { # Marib
+			13509 3
+		}
+		victory_points = { # Tarim
+			13494 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	manpower=54632
+	buildings_max_level_factor=1.000
+    state_category = rural
+
+	local_supplies = 0.0 
+}

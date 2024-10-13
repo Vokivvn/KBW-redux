@@ -1,0 +1,82 @@
+music_station = "rus_war_station"
+
+music = {
+	song = "A_Light_Flashes_in_the_Dark"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Campfire_Song"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "For_This_We_Drink"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Kiss_the_Rails_Girls_im_Going_Home"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Sailors_Dance"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Sleep_Battle_Eagles"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Through_the_Wild_Steppes_of_Transbaikal"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Were_Leaving_a_Dawn"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Dance_of_the_Siberian_Cossacks"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Echelons_Song"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

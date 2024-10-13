@@ -1,0 +1,66 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		oil=180.000
+		aluminium=8.000
+	}
+
+	history={
+		owner = XPU
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+			air_base = 10
+			1562 = {
+				naval_base = 10
+
+			}
+			9671 = {
+				naval_base = 4
+
+			}
+			9814 = {
+				naval_base = 5
+
+			}
+			610 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = XPU
+		victory_points = {
+			9814 30 
+		}
+		victory_points = {
+			1562 15 
+		}
+		victory_points = {
+			9671 25 
+		}
+		victory_points = {
+			9713 1 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		505 528 610 677 710 766 768 781 823 941 1414 1432 1562 1601 1651 3471 3513 3588 3644 3677 3678 3840 4274 4296 4328 4331 4347 4380 4398 4518 4521 4607 4657 4727 4799 6482 6665 6681 6694 6699 6745 6757 6772 6861 6876 7255 7386 7398 7442 7517 7667 7986 8115 9637 9671 9697 9713 9730 9814 9855 9911 10151 10159 10183 10242 10271 10305 10387 10422 10483 10783 11495 11658 11698 11733 11757 11763 11795 11814 11859 12134 12183 12211 12281 12303 12374 12425 
+	}
+	manpower=5677248
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

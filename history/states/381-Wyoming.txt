@@ -1,0 +1,23 @@
+
+state={
+	id=381
+	name="STATE_381"
+
+	history={
+		owner = HH1
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = HH1
+
+	}
+
+	provinces={
+		1756 1815 1851 4741 6887 7688 7814 10535 10672 10711 12561 12633 12651 
+	}
+	manpower=225564
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

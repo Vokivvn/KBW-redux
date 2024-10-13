@@ -1,0 +1,31 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		oil=14.000
+		aluminium=30.000
+	}
+
+	history={
+		owner = HPI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = HPI
+		victory_points = {
+			4975 1 
+		}
+
+	}
+
+	provinces={
+		3867 3883 4975 8070 9792 12552 
+	}
+	manpower=423316
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

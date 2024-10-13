@@ -1,0 +1,115 @@
+###########################
+# POLISH-SERBIAN CONFLICT #
+###########################
+
+add_namespace = Polish_Serbian_Conflict
+
+# Polish-Serbian War News Event
+
+news_event = {
+	id = Polish_Serbian_Conflict.1
+	title = Polish_Serbian_Conflict.1.t
+	desc = Polish_Serbian_Conflict.1.d
+	picture = GFX_news_event_polish_serbian_border_crisis
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Polish_Serbian_Conflict.1.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = SER
+				TAG = BEL
+			}
+		}
+	}
+	option = {
+		name = Polish_Serbian_Conflict.1.b
+		trigger = { TAG = POL }
+	}
+	option = {
+		name = Polish_Serbian_Conflict.1.c
+		trigger = { TAG = SER }
+	}
+	option = {
+		name = Polish_Serbian_Conflict.1.d
+		trigger = { TAG = BEL }
+	}
+}
+
+# Polish-Serbian Ceasefire News Event
+
+news_event = {
+	id = Polish_Serbian_Conflict.2
+	title = Polish_Serbian_Conflict.2.t
+	desc = Polish_Serbian_Conflict.2.d
+	picture = GFX_news_event_polish_serbian_ceasefire
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Polish_Serbian_Conflict.2.a
+		trigger = {
+			NOT = {
+				TAG = POL
+				TAG = SER
+				TAG = BEL
+			}
+		}
+	}
+	option = {
+		name = Polish_Serbian_Conflict.2.b
+		trigger = { TAG = POL }
+	}
+	option = {
+		name = Polish_Serbian_Conflict.2.c
+		trigger = { TAG = SER }
+	}
+	option = {
+		name = Polish_Serbian_Conflict.2.d
+		trigger = { TAG = BEL }
+	}
+}
+
+country_event = {
+	id = Polish_Serbian_Conflict.3
+	title = Polish_Serbian_Conflict.3.t
+	desc = Polish_Serbian_Conflict.3.desc
+	picture = GFX_report_event_poland_attack_serbia
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Polish_Serbian_Conflict.3.a
+		add_war_support = 0.05
+		declare_war_on = {
+			target = SER
+			type = annex_everything
+		}
+		add_state_claim = 66
+		add_state_claim = 65
+		add_state_claim = 68
+		add_state_claim = 64
+	}
+}
+
+country_event = {
+	id = Polish_Serbian_Conflict.4
+	title = Polish_Serbian_Conflict.4.t
+	desc = Polish_Serbian_Conflict.4.desc
+	picture = GFX_report_event_serbia_ready_defences
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = Polish_Serbian_Conflict.4.a
+		
+	}
+}

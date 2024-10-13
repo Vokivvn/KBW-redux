@@ -1,0 +1,31 @@
+
+state={
+	id=149
+	name="STATE_149"
+
+	history={
+		owner = SC8
+		victory_points = {
+			3122 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			3122 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SC8
+
+	}
+
+	provinces={
+		63 66 132 195 3122 3172 6081 6198 6212 9106 9156 9219 11065 11121 11132 11144 
+	}
+	manpower=811029
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

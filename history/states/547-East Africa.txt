@@ -1,0 +1,35 @@
+
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = ETH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			5210 = {
+				naval_base = 2
+
+			}
+			industrial_complex = 5
+			arms_factory = 2
+		}
+		victory_points = {
+			1939 2 
+		}
+		victory_points = {
+			5210 1 
+		}
+		add_core_of = ETH
+
+	}
+
+	provinces={
+		1939 5079 5160 5196 6020 10761 10860 10962 13343 13348 13351 13357 13359 13360 13368 13375 
+	}
+	manpower=3392000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=6.000
+}

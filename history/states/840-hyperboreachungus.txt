@@ -1,0 +1,19 @@
+
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		owner = KAR
+		add_core_of = KAR
+
+	}
+
+	provinces={
+		22 44 61 64 76 91 101 128 151 192 203 2995 3016 3040 3058 3069 3082 3145 6015 6055 6061 6079 6092 6107 6130 6170 6208 9042 9064 9083 9089 9128 9178 9191 11034 11050 11060 11063 11077 11090 11104 11130 11157 11169 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.000
+}

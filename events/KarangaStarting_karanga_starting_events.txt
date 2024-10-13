@@ -1,0 +1,81 @@
+add_namespace = KarangaStarting_karanga_starting_events
+
+#Failure Of The Serbian Offensive
+country_event = {
+	id = KarangaStarting_karanga_starting_events.1
+	title = KarangaStarting_karanga_starting_events.1.t
+	desc = KarangaStarting_karanga_starting_events.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = KarangaStarting_failure_of_the_serbian_offensive-155220
+	option = {
+		name = KarangaStarting_karanga_starting_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Fall Of Sekibo
+country_event = {
+	id = KarangaStarting_karanga_starting_events.2
+	title = KarangaStarting_karanga_starting_events.2.t
+	desc = KarangaStarting_karanga_starting_events.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = KarangaStarting_fall_of_sekibo-155231
+	option = {
+		name = KarangaStarting_karanga_starting_events.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = KarangaStarting_karanga_starting_events.2.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#The Reformers
+country_event = {
+	id = KarangaStarting_karanga_starting_events.3
+	title = KarangaStarting_karanga_starting_events.3.t
+	desc = KarangaStarting_karanga_starting_events.3.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_reformer
+	option = {
+		name = KarangaStarting_karanga_starting_events.3.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

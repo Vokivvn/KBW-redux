@@ -1,0 +1,27 @@
+
+state={
+	id=145
+	name="STATE_145"
+
+	history={
+		owner = SC1
+		buildings = {
+			infrastructure = 3
+			9228 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SC1
+
+	}
+
+	provinces={
+		161 3182 6050 6209 9149 9228 11082 11278 
+	}
+	manpower=27400
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

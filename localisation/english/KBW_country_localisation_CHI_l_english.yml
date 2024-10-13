@@ -1,0 +1,42 @@
+﻿l_english:
+ #Leaders
+ #Focuses
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #: ""
+ #_desc: ""
+ #Ideas
+ CHI_Three_Clauses:0 "Three Clauses of Discipline and Eight Items of Notice \n\n\n\n\n£GFX_asia1_texticon \n\n\n\n"
+ CHI_Three_Clauses_desc:0 "With our army being almost 2 million Chinese men and women strong we have run into a minor problem. \n\n With an army as large as this we have found it almost impossible to train every man and woman. Not to mention that only 13% of the country can read, So in order to solve both of these problems we have come up with a set of verbal rules to be remembered through a little song to train our men on the go. \n\n Rules of Discipline \n\n Prompt obedience to orders, \n No confiscation of people's property, \n Prompt delivery directly to authorities of all items confiscated from enemy. \n\n Eight Points for Attention \n\n Be polite when speaking \n Be honest when buying and selling \n Return all borrowed articles \n Pay compensation for everything damaged \n Do not hit or swear at others \n Do not damage crops \n Do not harass females \n Do not mistreat prisoners"
+ CHI_rusmustdie:0 "Prepare The §RGREAT RECLAMATION \n\n\n\n\n£GFX_asia2_texticon \n\n\n\n \n§RThis Will Be Worked Out In Future Releases§!"
+ CHI_rusmustdie_desc:0 "Thousands of years of history have led up to this moment. \n\n The Chinese race although it has suffered many failures has one last chance to strive for a greater living space for its almost 1 billion people. We must move south, east, north and west, Conquer the vast Siberian lands of which the Russian people own. Then we must move both East and South to stop the so-called "democracy" which wishes to prevent our glorious conquests. \n\n §RTHERE WILL BE NO SURRENDER, DEATH TO THE ENEMY, DEATH TO ALL THOSE WHO STAND IN THE WAY OF THE ARMY OF CHINA WE ARE 1 BILLION STRONG!"
+ CHI_racenation:0 "The 5 Child Policy \n\n\n\n\n£GFX_asia3_texticon \n\n\n\n"
+ CHI_racenation_desc:0 "Enough is Enough! western "intellectuals" believe that in order for a civilization to "Progress" their population pyramid must stabilize, this is wrong and blatant propaganda. \n\n Although we are fast approaching 1 billion citizens our plans for greater living space north than to the west up to the mountains that divide Eurvpe and Asia will solve this issue. In light of this, every family is now legally obligated to produce 5 children whom will eventually be obligated to serve 5 years of military service the moment they reach the age of 19."
+ definearyan:0 "A Lazy Race? \n\n\n\n\n£GFX_asia4_texticon \n\n\n\n \n§RThis Will Be Worked Out In Future Releases§!"
+ definearyan_desc:0"While touring the country our leader Xie has found our nation to grow lazy with the comfort and safety the party has granted its people. This has to end immediately. \n\n The "Workers Pride" campaign wishes to install ideological fanaticism into each and every person by forcing the people to produce higher-quality goods at a faster pace.  While this has to lead to famine in some of our provinces the leader ensures us that this will be worked out in due time."
+ remeberthepushnorth:0 "The Great Push North  \n\n\n\n\n£GFX_asia5_texticon \n\n\n\n \n§RThis Will Be Worked Out In Future Releases§!"
+ remeberthepushnorth_desc:0 "Remember The Great Push North! \n\n\n The great push north was a massive campaign to liberate the country from foreign elements and warlordism. The campaign lasted 12 long years but we celebrate it every year, Our country must strive to achieve the same glorious victories as we did during this campaign."
+ #Characters
+ #Decision Categories
+ #Missions
+ #Decisions
+ #Country Flag
+ #Tooltips
+ #Faction
+ #Parties
+ #Country
+ #Events
+ chinanazi.1.t:0 "Watching The Border"
+ chinanazi.1.d:0 "After the Rus-Chinse border conflict a few days ago we have realized that our army is nowhere near ready to actually attack the Russian state in government-mandated plans. Our perceived "2 Month Invasion" would presumably last over 5 years and result in millions of deaths. On top of that our men have shown discomfort in charging in massive waves of men into machine gunfire. Overall the status of our army is extremely poor and not ready for any real major conflict with any power and will presumably not be ready for decades to come. We recommend we delay the invasion of Rus until the situation turns in our favour.""
+ chinanazi.1.a:0 "We Must Invade Soon, There Is No Alternative."
+ chinanazi.2.t:0 "The Little Yellow Men"
+ chinanazi.2.d:0 "Yesterday Chinese forces intervened in the occurring civil war in Myanmar by sizing the Chindong airport right outside the capital and advancing through the Jinbu Road striking deep into the country. While China denies their intervening as their government is pointing out the soldiers aren't wearing any markers or insignia. This has led to the international world dubbing these soldiers "Little Yellow Men" due to their beige yellowish uniforms."
+ chinanazi.2.a:0 "A Rat Attacks At Night"

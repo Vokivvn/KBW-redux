@@ -1,0 +1,138 @@
+division_template = {
+	name = "Motorized Division"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "National Battalions"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Volunteers Battalions"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Rudnikovskiy Battalion"
+		location = 9461
+		division_template = "National Battalions"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Battalion  ''Tolmach'' "
+		location = 3421
+		division_template = "Dobrovlcheskiy Battalion"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Saqatai Militia"
+		location = 11405
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Saqatai Militia"
+		location = 11405
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "Saqatai Militia"
+		location = 11405
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Rudnikov Volunteer Militia"
+		location = 6474
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+	}
+	division = {
+		name = "Battalions ''Kuhei"
+		location = 9417
+		division_template = "National Battalions"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Zemlekamskaya Narodnaya Militsya"
+		location = 3479
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Volunteer Militia"
+		location = 9417
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.4
+	}
+	division = {
+		name = "Battalion  ''A.Z.O.V.''  "
+		location = 9417
+		division_template = "National Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Rudnikov Volunteers"
+		location = 6474
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Battalion  ''Karabai'' "
+		location = 6776
+		division_template = "National Battalions"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Motorized Battalion ''Kapan'' "
+		location = 6420
+		division_template = "Motorized Division"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "''Chor'' Militia"
+		location = 6474
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "''Ertin'' Militia"
+		location = 6474
+		division_template = "Volunteers Battalions"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+}

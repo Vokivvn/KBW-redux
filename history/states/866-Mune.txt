@@ -1,0 +1,20 @@
+state={
+	id=866
+	name="STATE_866"
+	history={
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+			industrial_complex = 4
+			arms_factory = 2
+		}
+	}
+	provinces={
+		2196 2206 5224 8183 8205 11017 12911 13307 13308 13310 13311 13314 13315 13317 13320 13322 13326 13327 13328 13329 13331 13332 13333 13335 13337 13340 13346 13347 13353 13354 
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = large_city
+
+	local_supplies = 6.0 
+}

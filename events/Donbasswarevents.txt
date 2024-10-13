@@ -1,0 +1,136 @@
+add_namespace = donbasswar
+
+country_event = {
+	id = donbasswar.1
+	title = donbasswar.1.t
+	desc = donbasswar.1.d
+
+	fire_only_once = yes
+        immediate = {
+			hidden_effect = {
+				country_event = { id = donbasswar.2 days = 3 }
+      			        DPM = {
+      			        transfer_state = 857
+      			        add_state_core = 857
+      			        add_state_core = 227
+      			        add_state_core = 858
+      			        add_state_claim = 856	
+      			        add_state_claim = 226
+      			        add_state_claim = 855
+	}
+}
+	picture = GFX_no_fly_zone
+	option = {
+		name = donbasswar.1.a
+		}
+		trigger = {
+			   tag = BUL
+			   date > 1972.1.13
+		}
+		mean_time_to_happen = {
+		     days = 1
+		}
+		ai_chance = { factor = 1 }
+    }
+}
+
+country_event = {
+	id = donbasswar.2
+	title = donbasswar.2.t
+	desc = donbasswar.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	        immediate = {
+    						hidden_effect = {
+		country_event = { id = donbasswar.3 days = 200 }
+		DPM = {
+		declare_war_on = {
+				  target = BUL
+				  type = puppet_wargoal_focus
+		}
+		DPM = {
+			load_oob = "DPM_1972"
+		}
+		BUL = {
+			load_oob = "BUL_1972"
+			set_politics = {
+				ruling_party = distributism_nationalism
+				elections_allowed = no
+				last_election = "1970.12.17"
+				election_frequency = no
+			}
+	    }
+    } 
+  }
+}
+	picture = GFX_chinazi1
+	option = {
+		name = donbasswar.2.a
+		}
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+}
+
+country_event = {
+	id = donbasswar.3
+	title = donbasswar.3.t
+	desc = donbasswar.3.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_chinazi1
+	option = {
+		name = donbasswar.3.a
+		hidden_effect = {
+		SOV = {
+			load_oob = "SOV_2014"
+		}
+		SOV = {
+			puppet = DPM
+		        declare_war_on = {
+				           target = BUL
+				           type = puppet_wargoal_focus
+		        }
+		        SOV = {
+		        add_state_core = 857
+		        add_state_core = 227
+		        add_state_core = 858
+		        add_state_claim = 856	
+		        add_state_claim = 226
+		        add_state_claim = 855
+	                }
+		}
+		BUL = {
+			load_oob = "BUL_2014"
+		}
+		DPM = {
+			declare_war_on = {
+				        target = BUL
+				        type = puppet_wargoal_focus
+		        }
+	        create_country_leader = {
+				name = "Vasiliy Nikulin"
+				picture = "gfx/leaders/RUS/Portrait_Dpm_Vasiliy_Nikulin.dds"
+				ideology = oligarchism
+				traits = {
+					
+				}
+			}
+
+		}
+		trigger = { 
+
+		}
+		ai_chance = { factor = 1 }
+			
+		}
+	}
+}

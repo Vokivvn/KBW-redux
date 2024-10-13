@@ -1,0 +1,182 @@
+division_template = {
+	name = "Bùbīng Lǚ"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		artillery_brigade = { x = 0 y = 4 }
+	}
+	priority = 2
+}
+
+division_template = {
+	name = "Mínbīng Lǚ"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+	}
+	priority = 0
+}
+
+division_template = {
+	name = "Dòngyuán Jǐngchá"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	
+}
+
+units = {
+	division = {
+		name = "1. Bùbīng Lǚ"
+		location = 9713
+		division_template = "Bùbīng Lǚ"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Bùbīng Lǚ"
+		location = 9713
+		division_template = "Bùbīng Lǚ"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Bùbīng Lǚ"
+		location = 9713
+		division_template = "Bùbīng Lǚ"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Bùbīng Lǚ"
+		location = 9713
+		division_template = "Bùbīng Lǚ"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Bùbīng Lǚ"
+		location = 9713
+		division_template = "Bùbīng Lǚ"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "1. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+		name = "2. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.42
+	}
+	
+	division = {
+		name = "3. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "4. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "5. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.22
+	}
+	
+	division = {
+		name = "6. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "7. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "8. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "9. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "10. Mínbīng Lǚ"
+		location = 9713
+		division_template = "Mínbīng Lǚ"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "1. Dòngyuán Jǐngchá"
+		location = 9713
+		division_template = "Dòngyuán Jǐngchá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.43
+	}
+	
+	division = {
+		name = "2. Dòngyuán Jǐngchá"
+		location = 9713
+		division_template = "Dòngyuán Jǐngchá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "3. Dòngyuán Jǐngchá"
+		location = 9713
+		division_template = "Dòngyuán Jǐngchá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "4. Dòngyuán Jǐngchá"
+		location = 9713
+		division_template = "Dòngyuán Jǐngchá"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+}

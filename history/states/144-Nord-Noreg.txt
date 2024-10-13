@@ -1,0 +1,49 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		steel=9.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = SC4
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			192 = {
+				naval_base = 3
+
+			}
+			9116 = {
+				naval_base = 3
+
+			}
+			11050 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			192 1 
+		}
+		victory_points = {
+			9116 1 
+		}
+		victory_points = {
+			11050 1 
+		}
+		add_core_of = SC4
+
+	}
+
+	provinces={
+		38 58 107 115 168 173 190 3018 3034 3048 3088 3098 3126 3132 3162 6041 6071 6111 6116 6152 6155 6173 6185 6187 6214 9066 9069 9095 9126 9132 9171 9175 9208 11049 11052 11058 11173 
+	}
+	manpower=355251
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

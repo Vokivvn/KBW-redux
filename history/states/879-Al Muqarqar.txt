@@ -1,0 +1,35 @@
+state={
+	id=879
+	name="STATE_879"
+	provinces={
+		13526 13530 13532 13533 13535 13536 
+	}
+		history={
+		owner = AP4
+		add_core_of = AP4
+		add_core_of = AP1
+		add_core_of = AP3
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			13533 = {
+				naval_base = 1
+			}
+		}
+		victory_points = { # Salalah
+			13533 20
+		}
+		victory_points = { # Ubah
+			13532 3
+		}
+		victory_points = { # Thumrait
+			13530 3
+		}
+	}
+	manpower=420226
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 1.0 
+}

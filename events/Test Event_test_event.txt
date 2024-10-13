@@ -1,0 +1,10 @@
+add_namespace = Test Event_test_event
+
+#Test Event
+country_event = {
+	id = Test Event_test_event.1
+	title = Test Event_test_event.1.t
+	desc = Test Event_test_event.1.d
+
+	picture = Test Event_test_event-152157
+}

@@ -1,0 +1,15 @@
+state={
+	id=843
+	name="STATE_843"
+	provinces={
+		3094 9036 11029 
+	}
+		history={
+		owner = NOR
+		add_core_of = NOR
+	}
+	manpower = 9000
+	buildings_max_level_factor = 1.000
+        state_category = rural
+	local_supplies = 0.000
+}

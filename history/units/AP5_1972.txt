@@ -1,0 +1,133 @@
+division_template = {
+	name = "Alshuebat Alalia"
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Firqat Mushaa"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "Firqat Almilishia"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Alshuebat Alalia"
+		location = 13481
+		division_template = "Alshuebat Alalia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Firqat Almilishia"
+		location = 13491
+		division_template = "Firqat Almilishia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Almilishia"
+		location = 13475
+		division_template = "Firqat Almilishia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Mushaa"
+		location = 13488
+		division_template = "Firqat Mushaa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Almilishia"
+		location = 13489
+		division_template = "Firqat Almilishia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Mushaa"
+		location = 13489
+		division_template = "Firqat Mushaa"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Mushaa"
+		location = 13478
+		division_template = "Firqat Mushaa"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Firqat Mushaa"
+		location = 13503
+		division_template = "Firqat Mushaa"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Firqat Almilishia"
+		location = 13497
+		division_template = "Firqat Almilishia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Firqat Almilishia"
+		location = 13503
+		division_template = "Firqat Almilishia"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "Alshuebat Alalia"
+		location = 10840
+		division_template = "Alshuebat Alalia"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AP5"
+		}
+		requested_factories = 3
+		progress = 0.12
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "AP5"
+		}
+		requested_factories = 1
+		progress = 0.06
+		efficiency = 60
+	}
+}

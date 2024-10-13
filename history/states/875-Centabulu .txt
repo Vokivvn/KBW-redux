@@ -1,0 +1,16 @@
+state={
+	id=875
+	name="STATE_875"
+	provinces={
+		5010 7980 8036 10734 10775 12714 12856 13423 13442 13448 
+	}
+		history={
+		owner = AP6
+		add_core_of = AP6
+	}
+	manpower=11750
+	buildings_max_level_factor=1.000
+        state_category = rural
+
+	local_supplies = 6.0 
+}

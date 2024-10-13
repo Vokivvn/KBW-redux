@@ -1,0 +1,23 @@
+
+state={
+	id=273
+	name="STATE_273"
+
+	history={
+		owner = CAO
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = CAO
+
+	}
+
+	provinces={
+		1041 1994 4047 7136 7194 7985 10046 10117 12866 13073 
+	}
+	manpower=42633
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

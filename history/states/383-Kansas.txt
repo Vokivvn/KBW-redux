@@ -1,0 +1,41 @@
+
+state={
+	id=383
+	name="STATE_383"
+	resources={
+		oil=30.000
+	}
+
+	history={
+		owner = KXX
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = KXX
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+
+			}
+
+		}
+		victory_points = {
+			4740 3 
+		}
+		victory_points = {
+			7834 1 
+		}
+
+	}
+
+	provinces={
+		1753 1809 1827 3708 3869 4723 4757 4760 4814 4830 4871 7780 10532 10588 10606 10640 10676 11772 12024 12513 12570 12642 
+	}
+	manpower=1880998
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

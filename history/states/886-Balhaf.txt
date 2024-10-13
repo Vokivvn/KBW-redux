@@ -1,0 +1,35 @@
+state={
+	id=886
+	name="STATE_886"
+	provinces={
+		12821 13471 13475 13476 13480 13481 13485 13487 13488 13491 13505 
+	}
+		history={
+		owner = AP5
+		add_core_of = AP5
+		add_core_of = AP2
+		add_core_of = AP3	
+		victory_points = { # Al-Mukalla
+			13481 15
+		}
+		victory_points = { # Qarn Salifi
+			13487 1
+		}
+		victory_points = { # Balhaf
+			13475 3
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+			arms_factory = 1
+			13481 = {
+				naval_base = 1
+			}
+		}
+	}
+	manpower=763456
+	buildings_max_level_factor=1.000
+    state_category = large_town
+
+	local_supplies = 2.0 
+}

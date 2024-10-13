@@ -1,0 +1,133 @@
+division_template = {
+	name = "Infantry Brigade"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+division_template = {
+	name = "Militia Brigade"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Motorized Militia Brigade"
+
+	regiments = {
+		mot_militia = { x = 0 y = 0 }
+		mot_militia = { x = 0 y = 1 }
+		mot_militia = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "1. Infantry Brigade"
+		location = 6521
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Infantry Brigade"
+		location = 6521
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Infantry Brigade"
+		location = 6521
+		division_template = "Infantry Brigade"
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "1. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+	
+	division = {
+		name = "2. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.42
+	}
+	
+	division = {
+		name = "3. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "4. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "5. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.22
+	}
+	
+	division = {
+		name = "6. Militia Brigade"
+		location = 6521
+		division_template = "Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.35
+	}
+	
+	division = {
+		name = "1. Motorized Militia Brigade"
+		location = 6521
+		division_template = "Motorized Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.43
+	}
+	
+	division = {
+		name = "2. Motorized Militia Brigade"
+		location = 6521
+		division_template = "Motorized Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "3. Motorized Militia Brigade"
+		location = 6521
+		division_template = "Motorized Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "4. Motorized Militia Brigade"
+		location = 6521
+		division_template = "Motorized Militia Brigade"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+}

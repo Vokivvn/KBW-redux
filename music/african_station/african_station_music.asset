@@ -1,0 +1,107 @@
+music = {
+	name = "Aint_No_Mountain_High"
+	file = "Aint_No_Mountain_High.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Aint_Too_Proud_To_Beg"
+	file = "Aint_Too_Proud_To_Beg.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Hit_the_Road_Jack"
+	file = "Hit_the_Road_Jack.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Stand_By_Me"
+	file = "Stand_By_Me.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "September"
+	file = "September.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Walls_of_Respect"
+	file = "Walls_of_Respect.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Disco_Inferno"
+	file = "Disco_Inferno.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Aint_Got_No"
+	file = "Aint_Got_No.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Take_Me_Back_Baby"
+	file = "Take_Me_Back_Baby.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "My_Girl"
+	file = "My_Girl.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Please_Pardon_Me"
+	file = "Please_Pardon_Me.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Youre_Mine"
+	file = "Youre_Mine.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Love_X_Love"
+	file = "Love_X_Love.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Come_and_Get_Your_Love"
+	file = "Come_and_Get_Your_Love.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Sittin_On_the_Dock_of_the_Bay"
+	file = "Sittin_On_the_Dock_of_the_Bay.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "I_Can_See_Clearly_Now"
+	file = "I_Can_See_Clearly_Now.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Little_Green_Apples"
+	file = "Little_Green_Apples.ogg"
+	volume = 0.80
+}
+
+music = {
+	name = "Move_on_Up"
+	file = "Move_on_Up.ogg"
+	volume = 0.80
+}

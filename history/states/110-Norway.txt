@@ -1,0 +1,38 @@
+
+state={
+	id=110
+	name="STATE_110"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		victory_points = {
+			6115 15 
+		}
+		owner = SC5
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 1
+			air_base = 4
+			6115 = {
+				naval_base = 6
+				coastal_bunker = 3
+
+			}
+
+		}
+		add_core_of = SC5
+
+	}
+
+	provinces={
+		27 144 3059 6080 6136 9032 9204 11037 11135 
+	}
+	manpower=1410219
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

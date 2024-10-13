@@ -1,0 +1,15 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		1430 4321 4365 4414 10259 10296 10756 12779 
+	}
+	history={
+		owner = MR2
+		add_core_of = MR2
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	local_supplies=1.000
+	state_category=rural
+}

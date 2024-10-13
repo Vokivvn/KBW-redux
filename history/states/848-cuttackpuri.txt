@@ -1,0 +1,19 @@
+
+state={
+	id=848
+	name="STATE_848"
+
+	history={
+		owner = MR1
+		add_core_of = MR1
+
+	}
+
+	provinces={
+		1059 1101 1538 1579 4104 7090 7372 9946 10001 10116 10469 11924 11978 12063 12241 12462 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=5.000
+}

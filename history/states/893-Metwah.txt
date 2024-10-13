@@ -1,0 +1,29 @@
+state={
+	id=893
+	name="STATE_893"
+	provinces={
+		13521 
+	}
+	history={
+		owner = AP3
+		add_core_of = AP3
+		add_core_of = AP5
+		add_core_of = AP2
+		victory_points = { # Sana'a
+			13521 30
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+			13521 = {
+				bunker = 3
+			}
+		}
+	}
+	manpower=848333
+	buildings_max_level_factor=1.000
+    state_category = large_city
+
+	local_supplies = 6.0 
+}

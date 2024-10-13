@@ -1,0 +1,50 @@
+music_station = "ger_station"
+
+music = {
+	song = "Lebenszeit"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Troika"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Weltraum_Surfen"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Hallo_Erde_Hier_ist_Alpha"
+	chance = {
+		modifier = {
+			factor = 0.50
+		}		
+	}
+}
+music = {
+	song = "Die_Volkalisten"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}
+music = {
+	song = "Die_Schferhunde"
+	chance = {
+		modifier = {
+			factor = 1
+		}		
+	}
+}

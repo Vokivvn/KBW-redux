@@ -1,0 +1,123 @@
+division_template = {
+	name = "District Police"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	priority = 2
+}
+
+units = {
+	division = {
+		name = "1. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+	division = {
+		name = "2. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.67
+	}
+	division = {
+		name = "3. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.47
+	}
+	
+	division = {
+		name = "4. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.66
+	}
+	
+	division = {
+		name = "5. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.46
+	}
+	
+	division = {
+		name = "6. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "7. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "8. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.22
+	}
+	
+	division = {
+		name = "9. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.43
+	}
+	
+	division = {
+		name = "10. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.90
+	}
+	
+	division = {
+		name = "11. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.65
+	}
+
+	division = {
+		name = "12. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.56
+	}
+	
+	division = {
+		name = "13. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.22
+	}
+	
+	division = {
+		name = "14. District Police"
+		location = 6488
+		division_template = "District Police"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.43
+	}
+}

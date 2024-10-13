@@ -1,0 +1,23 @@
+add_namespace = rakotobe_flavour_events
+
+#Waka Waka Sells 1 Million Cartridges!
+country_event = {
+	id = rakotobe_flavour_events.1
+	title = rakotobe_flavour_events.1.t
+	desc = rakotobe_flavour_events.1.d
+	
+	fire_only_once = yes
+	
+	picture = waka_waka_sells_1_million_cartridges-221712
+	option = {
+		name = rakotobe_flavour_events.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

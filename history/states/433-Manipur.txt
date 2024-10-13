@@ -1,0 +1,27 @@
+
+state={
+	id=433
+	name="STATE_433"
+
+	history={
+		victory_points = {
+			2054 1 
+		}
+		owner = IN7
+		add_core_of = IN7
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1147 1908 1980 4149 4971 4984 7998 10847 10866 12844 12886 
+	}
+	manpower=11786000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=9.000
+}

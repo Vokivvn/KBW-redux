@@ -1,0 +1,26 @@
+
+state={
+	id=819
+	name="STATE_819"
+
+	history={
+		owner = MAN
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12557 1 
+		}
+		add_core_of = MAN
+
+	}
+
+	provinces={
+		1743 1868 4873 10578 10647 12557 12629 
+	}
+	manpower=88250
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

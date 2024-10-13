@@ -1,0 +1,141 @@
+division_template = {
+	name = "Yueaqibun Allah"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 1
+}
+division_template = {
+	name = "'Abna' Al'Iislam"
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		name = "Yueaqibun Allah"
+		location = 13521
+		division_template = "Yueaqibun Allah"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "Yueaqibun Allah"
+		location = 13469
+		division_template = "Yueaqibun Allah"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Yueaqibun Allah"
+		location = 13527
+		division_template = "Yueaqibun Allah"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13525
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "Yueaqibun Allah"
+		location = 13508
+		division_template = "Yueaqibun Allah"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13507
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 2029
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13477
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 1973
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13545
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13496
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13511
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.5
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13521
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.86
+	}
+	division = {
+		name = "'Abna' Al'Iislam"
+		location = 13469
+		division_template = "'Abna' Al'Iislam"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+	}
+	division = {
+		name = "Yueaqibun Allah"
+		location = 13473
+		division_template = "Yueaqibun Allah"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "AP3"
+		}
+		requested_factories = 4
+		progress = 0.01
+		efficiency = 5
+	}
+
+}

@@ -1,0 +1,44 @@
+﻿l_english:
+
+ #example 
+
+ fascist_influence:0 "Fascist Influence"
+ fascist_influence_desc:0 "Fascist pressure has made fascism very popular, and the country is susceptible to align with other fascists."
+ 
+
+ #western europe 
+
+ cheese_war:0 "The Cheese War \n\n§RThis Will Be Worked Out In Future Releases§!"
+ cheese_war_desc:0 "\n\n\n\n£GFX_chese_war_texticon  \n\n\n\n\n For over 12 years now our government and the government of Nesenga have been fighting over a small bit of "grazing land" which both sides claim as their own. On top of that, the land itself is vital for the local economies of both border towns, If we don't solve this border dispute soon it may lead to skirmishes or worse, complete diplomatic withdrawal by Nesenga which will leave our country isolated in post-colonial affairs which would lead to a collapse of our primary export, Cheese."
+
+ segregation:0 "Segregation \n\n§RThis Will Be Worked Out In Future Releases§!"
+ segregation_desc:0 "\n\n\n\n£GFX_segregation_texticon  \n\n\n\n\n Since our independence from our African overlords in the late 50s, we have achieved many things, Democracy, Better Health Care And Better Education, But civil rights are not one of them. This horrific system of "Apartheid" affects over 80% of the population who are predominantly white. If we are to become a modern nation-state and keep out these so-called "Pan Europeanists" and "Radical Peganists" we must relinquish rights to the locals or face destruction from domestic protests and riots."
+
+ bushwar:0 "The Shrub War \n\n§RThis Will Be Worked Out In Future Releases§!"
+ bushwar_desc:0 "\n\n\n\n£GFX_bushwar_texticon  \n\n\n\n\n For around 5 years now we have been engaged in what military experts call a "Shrub War" with Pan-Europeanist forces who are being supplied and armed by Rus agents to destabilize our country. An all-out war seems inevitable as their offensives become more frequent and terror attacks rock our airports and cities. \n\n §RIf We Don't Do Anything About These Terrorists Soon Our Country Will Fall To Civil War!"
+
+ crisiseuro:0 "Disintegrating Countryside \n\n§RThis Will Be Worked Out In Future Releases§!"
+ crisiseuro_desc:0 "\n\n\n\n£GFX_crisiseuro_texticon  \n\n\n\n\n Ever since the colonizers left our country the various ethnic groups have been trying to see who can kill each other the fastest. This has to lead to a collapse of authority in the forests of the country leaving the government in control of only the northern cities and villages. Ontop of the already horrid sisutation separatist movements in the coal-rich regions wish to leave the Federation and form their own republics, There is no saving the situation. \n\n §REVERY MAN FOR HIMSELF!"
+
+
+#asia 
+
+#Russia
+
+minor_power:0 "Minor Global Power \n\n§RYou Have The Ability To Influence Other Nations In Your Region§!"
+minor_power_desc:0 "\n\n\n\n £GFX_Minor_power_texticon \n\n\n\n\n As a minor power, we have the ability to influence our neighbours. Unlike other minor powers like the ones located in Africa, we are a new type of power, a White Global Power. We must maintain a balance of neutrality as well as avoid any attempts from the African content to destabilize our sphere \n\n §ROr Europe Will Face The Wrath Of Neo Colonialism§ \n\n\n\n\n\n\n £GFX_spherehigh_texticon \n\n\n\n\n"
+
+rus_democracy:0 "Europe's Only Democracy"
+rus_democracy_desc:0 "\n\n\n\n £GFX_rusdemocracy_texticon \n\n\n\n\n Novgorod the city which founded European democracy still stands the test of time and acts as a shining example of European excellence. \n\n Formed around 800 AD in the depths of what we now call "Rus" the city-state was all that was left of the Kievan Rus. The City eventually united with neighbouring Slavic city-states and formed one of the world's first democratic societies although corruption and instability plagued the republic for decades with it facing coups, counter-coups false heirs crowning themselves king etc. But in the latter half of the 18th century while the African powers pillaged South America navigators found a way around the Island of Britain which may allow greater trade with Asia and allow for the exploitation of this land. But all they found were two groups, The Slavs & The Khazaks for decades as Africa navigated and colonized western Europe they found themselves in constant conflict with these groups. This eventually allowed Rus & her allies to adopt the Black man's gun powder and rifles which turned the sword fighting ways of the east into one of steel and blood which allowed Rus to maintain the democracy which they have to this day."
+
+African_Colonization:0 "Ramifications Of African Colonization"
+African_Colonization_desc:0 "\n\n\n\n £GFX_africacolozation_texticon \n\n\n\n\n For decades the African powers have colonized western Europe leaving it desolate, underpopulated & stript of its resources. Luckily we avoided this fate due to our geographic position. \n\n Our geographic location in the east made it so it prevented the Africans from maintaining any long-term occupation of our lands thanks to General Winter. But this also prevented Europe from developing economically  & socially leaving most of Europe mostly underdeveloped. This has directly resulted in our economy being exponentially small in comparison to nations like Rakotobe or Oyo. Some experts have claimed that the only way for a nation like Rus to economically advance at  a rapid pace is for a large scale war to take place."
+
+Pyotr:0 "Artillerymen, Pyotr Gave An Order!"
+Pyotr_desc:0 "\n\n\n\n £GFX_rusart_texticon \n\n\n\n\n Rus has always been known as the backwords militaristic democracy to the east that has stood like a stone wall against the tide of African colonization. But if the world had to point out one thing that made the Rus army the strongest in all of Europe it would be there artillery. \n\n Artillerymen of Holy Rus! We have been given EXACT orders from the Commander of all Rus Forces. You know what is to be done. Ready! Aim! \n\n§RFIRE! FIRE! FIRE!"
+
+Chinese:0 "Imminent Chinese Invasion"
+Chinese_desc:0 "\n\n\n\n £GFX_chinasooninvasion_texticon \n\n\n\n\n Extremely frighting reports from our far eastern borders have shocked the Rus general staff. The Chinese army once thought to be nothing more than a group of an underequipped band of farmers has grown to 1 Million & is building fortifications on the border with our nation. \n\n The situation has become even more frightening to our 8,000 troops stationed along the massive border we share with the country. Due to our economic situation, we don't have the resources to bolster this force with greater numbers \n\n §RWe can only wait for them to come to us. "
+
+Zion:0 "How We Stood At Zion"
+Zion_desc:0 "\n\n\n\n £GFX_ruszion_texticon \n\n\n\n\n Every year on the First of February the people of Rus celebrate our glorious victory ontop of the Mountain of Zion. \n\n During the first Macedonian-Isreal war in 1943, our troops came to the aid of the Macedonian army after they suffered a horrific defeat to the Israeli airforce which was being supplied by the Rakotobe airforce at the time. 500 Our troops allowed the remnants of the Macedonian army around 13,000 strong to retreat behind the Balkan mountains allowing them to fight another day. These 500 men shall forever be martyrs until the end of time. \n\n §RJews attacked us and were defeated! Glory, Thunder like a Trumpet! beyond the Danube, Thoughout the Balkan mountains our glory is heard!"

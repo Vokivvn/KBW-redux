@@ -1,0 +1,26 @@
+
+state={
+	id=557
+	name="STATE_557"
+
+	history={
+		owner = AKF
+		add_core_of = AKF
+		victory_points = {
+			5034 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4948 5034 5077 7972 7992 8015 8058 10814 12710 
+	}
+	manpower=225000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

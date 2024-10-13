@@ -1,0 +1,42 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		steel=28.000
+		aluminium=9.000
+	}
+
+	history={
+		owner = SKC
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+		add_core_of = SKC
+		victory_points = {
+			6855 5 
+		}
+		victory_points = {
+			6890 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 7
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		722 749 774 779 882 3687 3763 4442 6610 6705 6707 9662 9664 9667 9711 9743 9808 11648 11654 11695 11725 11800 13154 13156 
+	}
+	manpower=6646694
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=11.000
+}

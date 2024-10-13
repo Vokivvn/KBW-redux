@@ -1,0 +1,28 @@
+﻿capital = 111
+
+oob = "FN4_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	
+	oob = "FN4_1939"
+	set_technology = {
+	}
+}
+
+set_convoys = 10
+
+set_popularities = {
+	neutrality = 100
+
+}
+

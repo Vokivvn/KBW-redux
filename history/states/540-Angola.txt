@@ -1,0 +1,36 @@
+
+state={
+	id=540
+	name="STATE_540"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = ACF
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 1 
+		}
+		victory_points = {
+			10966 1 
+		}
+		add_core_of = ACF
+
+	}
+
+	provinces={
+		1552 1580 2126 4735 5158 7548 7770 8136 8138 8202 8219 8248 10538 10957 10966 10978 12391 12519 12921 12958 12981 12985 13217 
+	}
+	manpower=3200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

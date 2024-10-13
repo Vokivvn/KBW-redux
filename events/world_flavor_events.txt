@@ -1,0 +1,81 @@
+add_namespace = worldflavorevents
+
+#Failure Of The Serbian Offensive
+news_event = {
+	id = worldflavorevents.1
+	title = worldflavorevents.1.t
+	desc = worldflavorevents.1.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_Rusinvasionofbulgariar
+	option = {
+		name = worldflavorevents.1.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+##General Stuff
+
+
+news_event = {
+	id = worldflavorevents.2
+	title = worldflavorevents.2.t
+	desc = worldflavorevents.2.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_Rusinvasionofbulgariar
+	option = {
+		name = worldflavorevents.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+news_event = {
+	id = worldflavorevents.3
+	title = worldflavorevents.3.t
+	desc = worldflavorevents.3.d
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	picture = GFX_Rusinvasionofbulgariar
+	option = {
+		name = worldflavorevents.3.a
+
+        DPM = {
+        transfer_state = 857
+        add_state_core = 857
+	add_state_core = 227
+	add_state_core = 858
+	add_state_claim = 856	
+	add_state_claim = 226
+	add_state_claim = 855
+	
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}

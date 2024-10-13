@@ -1,0 +1,167 @@
+	scripted_gui = {
+		start_menu = {
+			context_type = player_context
+			
+			window_name = "startup_menu_"
+			
+			visible = {
+				is_ai = no
+				check_variable = { global.show_up = 0 }
+			} 
+			
+			effects = {
+				exitdbutton_start_click = {
+					set_variable = { global.show_up = 1 }
+					set_variable = { show_up_info = 0 }
+					set_variable = { show_up_unit = 0 }
+					set_variable = { show_up_money = 0 }
+					set_variable = { show_up_credit = 0 }
+				}
+				mod_info_click = {
+					set_variable = { show_up_info = 1 }
+					set_variable = { show_up_unit = 0 }
+					set_variable = { show_up_money = 0 }
+					set_variable = { show_up_credit = 0 }
+				}
+				unit_balace_click = {
+					set_variable = { show_up_unit = 1 }
+					set_variable = { show_up_info = 0 }
+					set_variable = { show_up_money = 0 }
+					set_variable = { show_up_credit = 0 }
+				}
+				money_system_click = {
+					set_variable = { show_up_unit = 0 }
+					set_variable = { show_up_info = 0 }
+					set_variable = { show_up_money = 1 }
+					set_variable = { show_up_credit = 0 }
+				}
+				credit_click = {
+					set_variable = { show_up_unit = 0 }
+					set_variable = { show_up_info = 0 }
+					set_variable = { show_up_money = 0 }
+					set_variable = { show_up_credit = 1 }
+				}
+			}
+		}
+		
+		mod_info_start = {
+			parent_window_name = startup_menu_
+			context_type = player_context
+		
+			window_name = "mod_info_container"
+			
+			ai_enabled = {
+			   always = no
+			}
+			
+			visible = {
+				is_ai = no
+				check_variable = { show_up_info = 1 }
+			}
+			
+			dynamic_lists = {
+				
+			}
+
+			properties = {
+				
+			}
+			
+			effects = {
+
+			}
+
+			triggers = {
+				
+			}
+		}
+		
+		mod_unit_start = {
+			parent_window_name = startup_menu_
+			context_type = player_context
+		
+			window_name = "mod_unit_container"
+			
+			ai_enabled = {
+			   always = no
+			}
+			
+			visible = {
+				is_ai = no
+				check_variable = { show_up_unit = 1 }
+			}
+			
+			dynamic_lists = {
+				
+			}
+
+			properties = {
+				
+			}
+			
+			effects = {
+
+			}
+
+			triggers = {
+				
+			}
+		}
+		
+		mod_money_start = {
+			parent_window_name = startup_menu_
+			context_type = player_context
+		
+			window_name = "money_system_container"
+			
+			ai_enabled = {
+			   always = no
+			}
+			
+			visible = {
+				is_ai = no
+				check_variable = { show_up_money = 1 }
+			}
+			
+			dynamic_lists = {
+				
+			}
+
+			properties = {
+				
+			}
+			
+			effects = {
+
+			}
+
+			triggers = {
+				
+			}
+		}
+
+		help_start = {
+			context_type = player_context
+		
+			window_name = "time_control_window"
+			
+			ai_enabled = {
+			   always = no
+			}
+			
+			visible = {
+				is_ai = no
+			}
+			
+			effects = {
+				help_button_click = {
+					set_variable = { global.show_up = 1 }
+					set_variable = { show_up_info = 0 }
+					set_variable = { show_up_unit = 0 }
+					set_variable = { show_up_money = 0 }
+					set_variable = { show_up_credit = 0 }
+				}
+			}
+		}
+	}
+

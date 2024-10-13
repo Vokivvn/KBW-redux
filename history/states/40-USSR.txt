@@ -1,0 +1,35 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = ALT
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
+		}
+		victory_points = {
+			1794 1 
+		}
+
+	}
+
+	provinces={
+		1297 1749 1779 1794 1797 1864 1879 4661 4670 4685 4803 7317 7680 7708 7890 10202 10537 10546 10630 11410 12427 12515 12528 12594 12613 12616 
+	}
+	manpower=2107451
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=5.000
+}

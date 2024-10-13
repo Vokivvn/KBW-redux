@@ -1,0 +1,16 @@
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		4950 10030 
+	}
+	history={
+		owner = MR5
+		add_core_of = MR5
+
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	local_supplies=6.000
+	state_category=city
+}
